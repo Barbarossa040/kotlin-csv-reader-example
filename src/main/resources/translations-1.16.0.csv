@@ -1,0 +1,3891 @@
+G1;Configuration
+G1_1;System
+G1_1_1;Information
+M999001;Order number
+M999002;Type of system
+M999003;Production Number
+M999004;System name (for Bluetooth used)
+G1_1_2;General
+M999005;Suction condition
+E999005_0;Mains
+E999005_1;Flooded
+E999005_2;Lift
+M99906;PN class
+E99906_0;PN10
+E99906_1;PN16
+E99906_2;PN25
+E99906_3;PN40
+E99906_4;PN65
+M41000;Operating mode
+E41000_0;Frequency driven
+E41000_1;Directly switched
+M41007;Frequency converter type
+E41007_0;KSB PumpDrive2 (Eco)
+E41007_1;DP Var(+)
+E41007_2;Danfoss MicroDrive
+E41007_3;Danfoss MidiDrive
+E41007_4;Danfoss AquaDrive
+M41006;Frequency control type
+E41006_0;Multi-pump operation
+E41006_1;Single-pump operation
+M41001;Pump groups
+E41001_0;Base-load pump control
+E41001_1;Jockey-pump control
+E41001_2;Base-load and Peak-load pump control
+G1_1_3;Number of pumps
+M41002;Number of all pumps
+M41003;Number of base-load pumps
+M41004;Number of peak-load pumps
+G1_1_4;Maximum system load
+M41005;Maximum load of base-load pumps
+M999007;Maximum load of peak-load pumps
+M999008;Maximum load of jockey pumps
+G1_1_5;Manual-Off-Automatic mode
+M41008;Manual-Off-Automatic mode pumps
+E41008_0; internal via display
+E41008_1; external switches
+M999009;Manual-Off-Automatic mode rainwater pumps
+E999009_0; internal via display
+E999009_1; external switches
+G1_1_6;Fire alarm
+M41031;Fire alarm mode
+E41031_0; Disabled
+E41031_1; Enabled
+M999010;Digital input
+M41032;Maximum system load
+G1_2;Pumps
+G1_2_1;Base-load pump
+G1_2_1_1;Pump data
+M42001;Pump type
+E42001_0; Movitec
+E42001_1; DPV
+E42001_2; Multitec
+E42001_3; Eta-pump
+E42001_4; other
+M42002;Pump size
+E42002_0; 2
+E42002_1; 4
+E42002_2; 6
+E42002_3; 10
+E42002_4; 15
+E42002_5; 25
+E42002_6; 40
+E42002_7; 60
+E42002_8; 85
+E42002_9; 90
+E42002_10; 125
+M42003;Number of pump stages
+M42071;Number of reduced head pump stages
+M42004;Discharge head 0
+M42006;Discharge head 1
+M42008;Discharge head 2
+M42010;Discharge head 3
+M42012;Discharge head 4
+M42014;Discharge head 5
+M42016;Discharge head 6
+M42018;Flow rate 0
+M42020;Flow rate 1
+M42022;Flow rate 2
+M42024;Flow rate 3
+M42026;Flow rate 4
+M42028;Flow rate 5
+M42030;Flow rate 6
+M42032;Power 0
+M42034;Power 1
+M42036;Power 2
+M42038;Power 3
+M42040;Power 4
+M42042;Power 5
+M42044;Power 6
+M42046;NPSH 0
+M42048;NPSH 1
+M42050;NPSH 2
+M42052;NPSH 3
+M42054;NPSH 4
+M42056;NPSH 5
+M42058;NPSH 6
+G1_2_1_2;Motor data
+M42060;Nominal power
+M42062;Efficiency class
+E42062_1;IE1
+E42062_2;IE2
+E42062_3;IE3
+E42062_4;IE4
+E42062_5;IE5
+E42062_6;IE6
+M42063;Nominal cos phi
+M42064;Nominal speed
+M42065;Motor poles
+M42066;Nominal current
+M42068;Nominal frequency
+M42069;Nominal voltage
+M42070;Maximum number of pump starts per hour
+G1_2_2;Peak-load pump
+G1_2_2_1;Pump data
+M999011;Pump type
+E999011_0; Movitec
+E999011_1; DPV
+E999011_2; Multitec
+E999011_3; Eta-pump
+E999011_4; other
+M999012;Pump size
+E999012_0; 2
+E999012_1; 4
+E999012_2; 6
+E999012_3; 10
+E999012_4; 15
+E999012_5; 25
+E999012_6; 40
+E999012_7; 60
+E999012_8; 85
+E999012_9; 90
+E999012_10; 125
+M999013;Number of pump stages
+M999014;Number of reduced head pump stages
+M999015;Discharge head 0
+M999016;Discharge head 1
+M999017;Discharge head 2
+M999018;Discharge head 3
+M999019;Discharge head 4
+M999020;Discharge head 5
+M999021;Discharge head 6
+M999022;Flow rate 0
+M999023;Flow rate 1
+M999024;Flow rate 2
+M999025;Flow rate 3
+M999026;Flow rate 4
+M999027;Flow rate 5
+M999028;Flow rate 6
+M999029;Power 0
+M999030;Power 1
+M999031;Power 2
+M999032;Power 3
+M999033;Power 4
+M999034;Power 5
+M999035;Power 6
+M999036;NPSH 0
+M999037;NPSH 1
+M999038;NPSH 2
+M999039;NPSH 3
+M999040;NPSH 4
+M999041;NPSH 5
+M999042;NPSH 6
+G1_2_2_2;Motor data
+M999043;Nominal power
+M999044;Efficiency class
+E999044_1;IE1
+E999044_2;IE2
+E999044_3;IE3
+E999044_4;IE4
+E999044_5;IE5
+E999044_6;IE6
+M999045;Nominal cos phi
+M999046;Nominal speed
+M999047;Motor poles
+M999048;Nominal current
+M999049;Nominal frequency
+M999050;Nominal voltage
+M999051;Maximum number of pump starts per hour
+G1_2_3;Jockey pump
+G1_2_3_1;Pump data
+M999052;Pump type
+E999052_0; Movitec
+E999052_1; DPV
+E999052_2; Multitec
+E999052_3; Eta-pump
+E999052_4; other
+M999053;Pump size
+E999053_0; 2
+E999053_1; 4
+E999053_2; 6
+E999053_3; 10
+E999053_4; 15
+E999053_5; 25
+E999053_6; 40
+E999053_7; 60
+E999053_8; 85
+E999053_9; 90
+E999053_10; 125
+M999054;Number of pump stages
+G1_2_3_2;Motor data
+M999055;Maximum number of pump starts per hour
+G1_3;In-/Outputs
+G1_3_1;Analog inputs
+M46100;Input 1
+E46100_0;None
+E46100_1;Pressure sensor at suction side
+E46100_2;Pressure sensor at discharge side
+E46100_3;Pressure sensor at tank
+E46100_4;Set-point
+M46101;Input 2
+E46101_0;None
+E46101_1;Pressure sensor at suction side
+E46101_2;Pressure sensor at discharge side
+E46101_3;Pressure sensor at tank
+E46101_4;Set-point
+M46102;Input 3 (extension board)
+E46102_0;None
+E46102_1;Pressure sensor at suction side
+E46102_2;Pressure sensor at discharge side
+E46102_3;Pressure sensor at tank
+E46102_4;Set-point
+G1_3_2;Analog outputs
+M46150;Output 1
+E46150_0;None
+E46150_2;Suction-side pressure
+E46150_3;Discharge-side pressure
+E46150_5;Tank-filling proportional valve
+M46151;Output 2
+E46151_0;None
+E46151_2;Suction-side pressure
+E46151_3;Discharge-side pressure
+E46151_5;Tank-filling proportional valve
+G1_3_3;Digital inputs
+M46000;Input 1
+E46000_0;None
+E46000_1;Pressure switch
+E46000_2;Float switch
+E46000_3;Flow switch
+E46000_4;Failure motor-circuit breaker pump 1
+E46000_5;Failure motor-circuit breaker pump 2
+E46000_6;Failure motor-circuit breaker pump 3
+E46000_7;Failure motor-circuit breaker pump 4
+E46000_8;Failure motor-circuit breaker pump 5
+E46000_9;Failure motor-circuit breaker pump 6
+E46000_10;Manual-mode at M-0-A-switch pump 1
+E46000_11;Manual-mode at M-0-A-switch pump 2
+E46000_12;Manual-mode at M-0-A-switch pump 3
+E46000_13;Manual-mode at M-0-A-switch pump 4
+E46000_14;Manual-mode at M-0-A-switch pump 5
+E46000_15;Manual-mode at M-0-A-switch pump 6
+E46000_16;Automatic-mode at M-0-A-switch pump 1
+E46000_17;Automatic-mode at M-0-A-switch pump 2
+E46000_18;Automatic-mode at M-0-A-switch pump 3
+E46000_19;Automatic-mode at M-0-A-switch pump 4
+E46000_20;Automatic-mode at M-0-A-switch pump 5
+E46000_21;Automatic-mode at M-0-A-switch pump 6
+E46000_22;Over-temperature motor pump 1
+E46000_23;Over-temperature motor pump 2
+E46000_24;Over-temperature motor pump 3
+E46000_25;Over-temperature motor pump 4
+E46000_26;Over-temperature motor pump 5
+E46000_27;Over-temperature motor pump 6
+E46000_28;External On/Off
+E46000_29;Fire alarm
+E46000_30;Acknowledge all
+E46000_31;Alternative set-point
+E46000_32;Triggered check-run
+E46000_33;Emergency power operation
+E46000_34;Forced flushing
+E46000_35;Module water quality sensor/monitoring
+E46000_36;Leakage-detection by external device
+E46000_37;Failure supply-valve
+E46000_38;Failure additional supply-valve
+M46001;Input 2
+E46001_0;None
+E46001_1;Pressure switch
+E46001_2;Float switch
+E46001_3;Flow switch
+E46001_4;Failure motor-circuit breaker pump 1
+E46001_5;Failure motor-circuit breaker pump 2
+E46001_6;Failure motor-circuit breaker pump 3
+E46001_7;Failure motor-circuit breaker pump 4
+E46001_8;Failure motor-circuit breaker pump 5
+E46001_9;Failure motor-circuit breaker pump 6
+E46001_10;Manual-mode at M-0-A-switch pump 1
+E46001_11;Manual-mode at M-0-A-switch pump 2
+E46001_12;Manual-mode at M-0-A-switch pump 3
+E46001_13;Manual-mode at M-0-A-switch pump 4
+E46001_14;Manual-mode at M-0-A-switch pump 5
+E46001_15;Manual-mode at M-0-A-switch pump 6
+E46001_16;Automatic-mode at M-0-A-switch pump 1
+E46001_17;Automatic-mode at M-0-A-switch pump 2
+E46001_18;Automatic-mode at M-0-A-switch pump 3
+E46001_19;Automatic-mode at M-0-A-switch pump 4
+E46001_20;Automatic-mode at M-0-A-switch pump 5
+E46001_21;Automatic-mode at M-0-A-switch pump 6
+E46001_22;Over-temperature motor pump 1
+E46001_23;Over-temperature motor pump 2
+E46001_24;Over-temperature motor pump 3
+E46001_25;Over-temperature motor pump 4
+E46001_26;Over-temperature motor pump 5
+E46001_27;Over-temperature motor pump 6
+E46001_28;External On/Off
+E46001_29;Fire alarm
+E46001_30;Acknowledge all
+E46001_31;Alternative set-point
+E46001_32;Triggered check-run
+E46001_33;Emergency power operation
+E46001_34;Forced flushing
+E46001_35;Module water quality sensor/monitoring
+E46001_36;Leakage-detection by external device
+E46001_37;Failure supply-valve
+E46001_38;Failure additional supply-valve
+M46002;Input 3
+E46002_0;None
+E46002_1;Pressure switch
+E46002_2;Float switch
+E46002_3;Flow switch
+E46002_4;Failure motor-circuit breaker pump 1
+E46002_5;Failure motor-circuit breaker pump 2
+E46002_6;Failure motor-circuit breaker pump 3
+E46002_7;Failure motor-circuit breaker pump 4
+E46002_8;Failure motor-circuit breaker pump 5
+E46002_9;Failure motor-circuit breaker pump 6
+E46002_10;Manual-mode at M-0-A-switch pump 1
+E46002_11;Manual-mode at M-0-A-switch pump 2
+E46002_12;Manual-mode at M-0-A-switch pump 3
+E46002_13;Manual-mode at M-0-A-switch pump 4
+E46002_14;Manual-mode at M-0-A-switch pump 5
+E46002_15;Manual-mode at M-0-A-switch pump 6
+E46002_16;Automatic-mode at M-0-A-switch pump 1
+E46002_17;Automatic-mode at M-0-A-switch pump 2
+E46002_18;Automatic-mode at M-0-A-switch pump 3
+E46002_19;Automatic-mode at M-0-A-switch pump 4
+E46002_20;Automatic-mode at M-0-A-switch pump 5
+E46002_21;Automatic-mode at M-0-A-switch pump 6
+E46002_22;Over-temperature motor pump 1
+E46002_23;Over-temperature motor pump 2
+E46002_24;Over-temperature motor pump 3
+E46002_25;Over-temperature motor pump 4
+E46002_26;Over-temperature motor pump 5
+E46002_27;Over-temperature motor pump 6
+E46002_28;External On/Off
+E46002_29;Fire alarm
+E46002_30;Acknowledge all
+E46002_31;Alternative set-point
+E46002_32;Triggered check-run
+E46002_33;Emergency power operation
+E46002_34;Forced flushing
+E46002_35;Module water quality sensor/monitoring
+E46002_36;Leakage-detection by external device
+E46002_37;Failure supply-valve
+E46002_38;Failure additional supply-valve
+M46003;Input 4
+E46003_0;None
+E46003_1;Pressure switch
+E46003_2;Float switch
+E46003_3;Flow switch
+E46003_4;Failure motor-circuit breaker pump 1
+E46003_5;Failure motor-circuit breaker pump 2
+E46003_6;Failure motor-circuit breaker pump 3
+E46003_7;Failure motor-circuit breaker pump 4
+E46003_8;Failure motor-circuit breaker pump 5
+E46003_9;Failure motor-circuit breaker pump 6
+E46003_10;Manual-mode at M-0-A-switch pump 1
+E46003_11;Manual-mode at M-0-A-switch pump 2
+E46003_12;Manual-mode at M-0-A-switch pump 3
+E46003_13;Manual-mode at M-0-A-switch pump 4
+E46003_14;Manual-mode at M-0-A-switch pump 5
+E46003_15;Manual-mode at M-0-A-switch pump 6
+E46003_16;Automatic-mode at M-0-A-switch pump 1
+E46003_17;Automatic-mode at M-0-A-switch pump 2
+E46003_18;Automatic-mode at M-0-A-switch pump 3
+E46003_19;Automatic-mode at M-0-A-switch pump 4
+E46003_20;Automatic-mode at M-0-A-switch pump 5
+E46003_21;Automatic-mode at M-0-A-switch pump 6
+E46003_22;Over-temperature motor pump 1
+E46003_23;Over-temperature motor pump 2
+E46003_24;Over-temperature motor pump 3
+E46003_25;Over-temperature motor pump 4
+E46003_26;Over-temperature motor pump 5
+E46003_27;Over-temperature motor pump 6
+E46003_28;External On/Off
+E46003_29;Fire alarm
+E46003_30;Acknowledge all
+E46003_31;Alternative set-point
+E46003_32;Triggered check-run
+E46003_33;Emergency power operation
+E46003_34;Forced flushing
+E46003_35;Module water quality sensor/monitoring
+E46003_36;Leakage-detection by external device
+E46003_37;Failure supply-valve
+E46003_38;Failure additional supply-valve
+M46004;Input 5
+E46004_0;None
+E46004_1;Pressure switch
+E46004_2;Float switch
+E46004_3;Flow switch
+E46004_4;Failure motor-circuit breaker pump 1
+E46004_5;Failure motor-circuit breaker pump 2
+E46004_6;Failure motor-circuit breaker pump 3
+E46004_7;Failure motor-circuit breaker pump 4
+E46004_8;Failure motor-circuit breaker pump 5
+E46004_9;Failure motor-circuit breaker pump 6
+E46004_10;Manual-mode at M-0-A-switch pump 1
+E46004_11;Manual-mode at M-0-A-switch pump 2
+E46004_12;Manual-mode at M-0-A-switch pump 3
+E46004_13;Manual-mode at M-0-A-switch pump 4
+E46004_14;Manual-mode at M-0-A-switch pump 5
+E46004_15;Manual-mode at M-0-A-switch pump 6
+E46004_16;Automatic-mode at M-0-A-switch pump 1
+E46004_17;Automatic-mode at M-0-A-switch pump 2
+E46004_18;Automatic-mode at M-0-A-switch pump 3
+E46004_19;Automatic-mode at M-0-A-switch pump 4
+E46004_20;Automatic-mode at M-0-A-switch pump 5
+E46004_21;Automatic-mode at M-0-A-switch pump 6
+E46004_22;Over-temperature motor pump 1
+E46004_23;Over-temperature motor pump 2
+E46004_24;Over-temperature motor pump 3
+E46004_25;Over-temperature motor pump 4
+E46004_26;Over-temperature motor pump 5
+E46004_27;Over-temperature motor pump 6
+E46004_28;External On/Off
+E46004_29;Fire alarm
+E46004_30;Acknowledge all
+E46004_31;Alternative set-point
+E46004_32;Triggered check-run
+E46004_33;Emergency power operation
+E46004_34;Forced flushing
+E46004_35;Module water quality sensor/monitoring
+E46004_36;Leakage-detection by external device
+E46004_37;Failure supply-valve
+E46004_38;Failure additional supply-valve
+M46005;Input 6
+E46005_0;None
+E46005_1;Pressure switch
+E46005_2;Float switch
+E46005_3;Flow switch
+E46005_4;Failure motor-circuit breaker pump 1
+E46005_5;Failure motor-circuit breaker pump 2
+E46005_6;Failure motor-circuit breaker pump 3
+E46005_7;Failure motor-circuit breaker pump 4
+E46005_8;Failure motor-circuit breaker pump 5
+E46005_9;Failure motor-circuit breaker pump 6
+E46005_10;Manual-mode at M-0-A-switch pump 1
+E46005_11;Manual-mode at M-0-A-switch pump 2
+E46005_12;Manual-mode at M-0-A-switch pump 3
+E46005_13;Manual-mode at M-0-A-switch pump 4
+E46005_14;Manual-mode at M-0-A-switch pump 5
+E46005_15;Manual-mode at M-0-A-switch pump 6
+E46005_16;Automatic-mode at M-0-A-switch pump 1
+E46005_17;Automatic-mode at M-0-A-switch pump 2
+E46005_18;Automatic-mode at M-0-A-switch pump 3
+E46005_19;Automatic-mode at M-0-A-switch pump 4
+E46005_20;Automatic-mode at M-0-A-switch pump 5
+E46005_21;Automatic-mode at M-0-A-switch pump 6
+E46005_22;Over-temperature motor pump 1
+E46005_23;Over-temperature motor pump 2
+E46005_24;Over-temperature motor pump 3
+E46005_25;Over-temperature motor pump 4
+E46005_26;Over-temperature motor pump 5
+E46005_27;Over-temperature motor pump 6
+E46005_28;External On/Off
+E46005_29;Fire alarm
+E46005_30;Acknowledge all
+E46005_31;Alternative set-point
+E46005_32;Triggered check-run
+E46005_33;Emergency power operation
+E46005_34;Forced flushing
+E46005_35;Module water quality sensor/monitoring
+E46005_36;Leakage-detection by external device
+E46005_37;Failure supply-valve
+E46005_38;Failure additional supply-valve
+M46006;Input 7
+E46006_0;None
+E46006_1;Pressure switch
+E46006_2;Float switch
+E46006_3;Flow switch
+E46006_4;Failure motor-circuit breaker pump 1
+E46006_5;Failure motor-circuit breaker pump 2
+E46006_6;Failure motor-circuit breaker pump 3
+E46006_7;Failure motor-circuit breaker pump 4
+E46006_8;Failure motor-circuit breaker pump 5
+E46006_9;Failure motor-circuit breaker pump 6
+E46006_10;Manual-mode at M-0-A-switch pump 1
+E46006_11;Manual-mode at M-0-A-switch pump 2
+E46006_12;Manual-mode at M-0-A-switch pump 3
+E46006_13;Manual-mode at M-0-A-switch pump 4
+E46006_14;Manual-mode at M-0-A-switch pump 5
+E46006_15;Manual-mode at M-0-A-switch pump 6
+E46006_16;Automatic-mode at M-0-A-switch pump 1
+E46006_17;Automatic-mode at M-0-A-switch pump 2
+E46006_18;Automatic-mode at M-0-A-switch pump 3
+E46006_19;Automatic-mode at M-0-A-switch pump 4
+E46006_20;Automatic-mode at M-0-A-switch pump 5
+E46006_21;Automatic-mode at M-0-A-switch pump 6
+E46006_22;Over-temperature motor pump 1
+E46006_23;Over-temperature motor pump 2
+E46006_24;Over-temperature motor pump 3
+E46006_25;Over-temperature motor pump 4
+E46006_26;Over-temperature motor pump 5
+E46006_27;Over-temperature motor pump 6
+E46006_28;External On/Off
+E46006_29;Fire alarm
+E46006_30;Acknowledge all
+E46006_31;Alternative set-point
+E46006_32;Triggered check-run
+E46006_33;Emergency power operation
+E46006_34;Forced flushing
+E46006_35;Module water quality sensor/monitoring
+E46006_36;Leakage-detection by external device
+E46006_37;Failure supply-valve
+E46006_38;Failure additional supply-valve
+M46007;Input 8
+E46007_0;None
+E46007_1;Pressure switch
+E46007_2;Float switch
+E46007_3;Flow switch
+E46007_4;Failure motor-circuit breaker pump 1
+E46007_5;Failure motor-circuit breaker pump 2
+E46007_6;Failure motor-circuit breaker pump 3
+E46007_7;Failure motor-circuit breaker pump 4
+E46007_8;Failure motor-circuit breaker pump 5
+E46007_9;Failure motor-circuit breaker pump 6
+E46007_10;Manual-mode at M-0-A-switch pump 1
+E46007_11;Manual-mode at M-0-A-switch pump 2
+E46007_12;Manual-mode at M-0-A-switch pump 3
+E46007_13;Manual-mode at M-0-A-switch pump 4
+E46007_14;Manual-mode at M-0-A-switch pump 5
+E46007_15;Manual-mode at M-0-A-switch pump 6
+E46007_16;Automatic-mode at M-0-A-switch pump 1
+E46007_17;Automatic-mode at M-0-A-switch pump 2
+E46007_18;Automatic-mode at M-0-A-switch pump 3
+E46007_19;Automatic-mode at M-0-A-switch pump 4
+E46007_20;Automatic-mode at M-0-A-switch pump 5
+E46007_21;Automatic-mode at M-0-A-switch pump 6
+E46007_22;Over-temperature motor pump 1
+E46007_23;Over-temperature motor pump 2
+E46007_24;Over-temperature motor pump 3
+E46007_25;Over-temperature motor pump 4
+E46007_26;Over-temperature motor pump 5
+E46007_27;Over-temperature motor pump 6
+E46007_28;External On/Off
+E46007_29;Fire alarm
+E46007_30;Acknowledge all
+E46007_31;Alternative set-point
+E46007_32;Triggered check-run
+E46007_33;Emergency power operation
+E46007_34;Forced flushing
+E46007_35;Module water quality sensor/monitoring
+E46007_36;Leakage-detection by external device
+E46007_37;Failure supply-valve
+E46007_38;Failure additional supply-valve
+M46008;Input 9
+E46008_0;None
+E46008_1;Pressure switch
+E46008_2;Float switch
+E46008_3;Flow switch
+E46008_4;Failure motor-circuit breaker pump 1
+E46008_5;Failure motor-circuit breaker pump 2
+E46008_6;Failure motor-circuit breaker pump 3
+E46008_7;Failure motor-circuit breaker pump 4
+E46008_8;Failure motor-circuit breaker pump 5
+E46008_9;Failure motor-circuit breaker pump 6
+E46008_10;Manual-mode at M-0-A-switch pump 1
+E46008_11;Manual-mode at M-0-A-switch pump 2
+E46008_12;Manual-mode at M-0-A-switch pump 3
+E46008_13;Manual-mode at M-0-A-switch pump 4
+E46008_14;Manual-mode at M-0-A-switch pump 5
+E46008_15;Manual-mode at M-0-A-switch pump 6
+E46008_16;Automatic-mode at M-0-A-switch pump 1
+E46008_17;Automatic-mode at M-0-A-switch pump 2
+E46008_18;Automatic-mode at M-0-A-switch pump 3
+E46008_19;Automatic-mode at M-0-A-switch pump 4
+E46008_20;Automatic-mode at M-0-A-switch pump 5
+E46008_21;Automatic-mode at M-0-A-switch pump 6
+E46008_22;Over-temperature motor pump 1
+E46008_23;Over-temperature motor pump 2
+E46008_24;Over-temperature motor pump 3
+E46008_25;Over-temperature motor pump 4
+E46008_26;Over-temperature motor pump 5
+E46008_27;Over-temperature motor pump 6
+E46008_28;External On/Off
+E46008_29;Fire alarm
+E46008_30;Acknowledge all
+E46008_31;Alternative set-point
+E46008_32;Triggered check-run
+E46008_33;Emergency power operation
+E46008_34;Forced flushing
+E46008_35;Module water quality sensor/monitoring
+E46008_36;Leakage-detection by external device
+E46008_37;Failure supply-valve
+E46008_38;Failure additional supply-valve
+M46009;Input 10
+E46009_0;None
+E46009_1;Pressure switch
+E46009_2;Float switch
+E46009_3;Flow switch
+E46009_4;Failure motor-circuit breaker pump 1
+E46009_5;Failure motor-circuit breaker pump 2
+E46009_6;Failure motor-circuit breaker pump 3
+E46009_7;Failure motor-circuit breaker pump 4
+E46009_8;Failure motor-circuit breaker pump 5
+E46009_9;Failure motor-circuit breaker pump 6
+E46009_10;Manual-mode at M-0-A-switch pump 1
+E46009_11;Manual-mode at M-0-A-switch pump 2
+E46009_12;Manual-mode at M-0-A-switch pump 3
+E46009_13;Manual-mode at M-0-A-switch pump 4
+E46009_14;Manual-mode at M-0-A-switch pump 5
+E46009_15;Manual-mode at M-0-A-switch pump 6
+E46009_16;Automatic-mode at M-0-A-switch pump 1
+E46009_17;Automatic-mode at M-0-A-switch pump 2
+E46009_18;Automatic-mode at M-0-A-switch pump 3
+E46009_19;Automatic-mode at M-0-A-switch pump 4
+E46009_20;Automatic-mode at M-0-A-switch pump 5
+E46009_21;Automatic-mode at M-0-A-switch pump 6
+E46009_22;Over-temperature motor pump 1
+E46009_23;Over-temperature motor pump 2
+E46009_24;Over-temperature motor pump 3
+E46009_25;Over-temperature motor pump 4
+E46009_26;Over-temperature motor pump 5
+E46009_27;Over-temperature motor pump 6
+E46009_28;External On/Off
+E46009_29;Fire alarm
+E46009_30;Acknowledge all
+E46009_31;Alternative set-point
+E46009_32;Triggered check-run
+E46009_33;Emergency power operation
+E46009_34;Forced flushing
+E46009_35;Module water quality sensor/monitoring
+E46009_36;Leakage-detection by external device
+E46009_37;Failure supply-valve
+E46009_38;Failure additional supply-valve
+M46010;Input 11
+E46010_0;None
+E46010_1;Pressure switch
+E46010_2;Float switch
+E46010_3;Flow switch
+E46010_4;Failure motor-circuit breaker pump 1
+E46010_5;Failure motor-circuit breaker pump 2
+E46010_6;Failure motor-circuit breaker pump 3
+E46010_7;Failure motor-circuit breaker pump 4
+E46010_8;Failure motor-circuit breaker pump 5
+E46010_9;Failure motor-circuit breaker pump 6
+E46010_10;Manual-mode at M-0-A-switch pump 1
+E46010_11;Manual-mode at M-0-A-switch pump 2
+E46010_12;Manual-mode at M-0-A-switch pump 3
+E46010_13;Manual-mode at M-0-A-switch pump 4
+E46010_14;Manual-mode at M-0-A-switch pump 5
+E46010_15;Manual-mode at M-0-A-switch pump 6
+E46010_16;Automatic-mode at M-0-A-switch pump 1
+E46010_17;Automatic-mode at M-0-A-switch pump 2
+E46010_18;Automatic-mode at M-0-A-switch pump 3
+E46010_19;Automatic-mode at M-0-A-switch pump 4
+E46010_20;Automatic-mode at M-0-A-switch pump 5
+E46010_21;Automatic-mode at M-0-A-switch pump 6
+E46010_22;Over-temperature motor pump 1
+E46010_23;Over-temperature motor pump 2
+E46010_24;Over-temperature motor pump 3
+E46010_25;Over-temperature motor pump 4
+E46010_26;Over-temperature motor pump 5
+E46010_27;Over-temperature motor pump 6
+E46010_28;External On/Off
+E46010_29;Fire alarm
+E46010_30;Acknowledge all
+E46010_31;Alternative set-point
+E46010_32;Triggered check-run
+E46010_33;Emergency power operation
+E46010_34;Forced flushing
+E46010_35;Module water quality sensor/monitoring
+E46010_36;Leakage-detection by external device
+E46010_37;Failure supply-valve
+E46010_38;Failure additional supply-valve
+M46011;Input 12
+E46011_0;None
+E46011_1;Pressure switch
+E46011_2;Float switch
+E46011_3;Flow switch
+E46011_4;Failure motor-circuit breaker pump 1
+E46011_5;Failure motor-circuit breaker pump 2
+E46011_6;Failure motor-circuit breaker pump 3
+E46011_7;Failure motor-circuit breaker pump 4
+E46011_8;Failure motor-circuit breaker pump 5
+E46011_9;Failure motor-circuit breaker pump 6
+E46011_10;Manual-mode at M-0-A-switch pump 1
+E46011_11;Manual-mode at M-0-A-switch pump 2
+E46011_12;Manual-mode at M-0-A-switch pump 3
+E46011_13;Manual-mode at M-0-A-switch pump 4
+E46011_14;Manual-mode at M-0-A-switch pump 5
+E46011_15;Manual-mode at M-0-A-switch pump 6
+E46011_16;Automatic-mode at M-0-A-switch pump 1
+E46011_17;Automatic-mode at M-0-A-switch pump 2
+E46011_18;Automatic-mode at M-0-A-switch pump 3
+E46011_19;Automatic-mode at M-0-A-switch pump 4
+E46011_20;Automatic-mode at M-0-A-switch pump 5
+E46011_21;Automatic-mode at M-0-A-switch pump 6
+E46011_22;Over-temperature motor pump 1
+E46011_23;Over-temperature motor pump 2
+E46011_24;Over-temperature motor pump 3
+E46011_25;Over-temperature motor pump 4
+E46011_26;Over-temperature motor pump 5
+E46011_27;Over-temperature motor pump 6
+E46011_28;External On/Off
+E46011_29;Fire alarm
+E46011_30;Acknowledge all
+E46011_31;Alternative set-point
+E46011_32;Triggered check-run
+E46011_33;Emergency power operation
+E46011_34;Forced flushing
+E46011_35;Module water quality sensor/monitoring
+E46011_36;Leakage-detection by external device
+E46011_37;Failure supply-valve
+E46011_38;Failure additional supply-valve
+M46012;Input 13 (extension board)
+E46012_0;None
+E46012_1;Pressure switch
+E46012_2;Float switch
+E46012_3;Flow switch
+E46012_4;Failure motor-circuit breaker pump 1
+E46012_5;Failure motor-circuit breaker pump 2
+E46012_6;Failure motor-circuit breaker pump 3
+E46012_7;Failure motor-circuit breaker pump 4
+E46012_8;Failure motor-circuit breaker pump 5
+E46012_9;Failure motor-circuit breaker pump 6
+E46012_10;Manual-mode at M-0-A-switch pump 1
+E46012_11;Manual-mode at M-0-A-switch pump 2
+E46012_12;Manual-mode at M-0-A-switch pump 3
+E46012_13;Manual-mode at M-0-A-switch pump 4
+E46012_14;Manual-mode at M-0-A-switch pump 5
+E46012_15;Manual-mode at M-0-A-switch pump 6
+E46012_16;Automatic-mode at M-0-A-switch pump 1
+E46012_17;Automatic-mode at M-0-A-switch pump 2
+E46012_18;Automatic-mode at M-0-A-switch pump 3
+E46012_19;Automatic-mode at M-0-A-switch pump 4
+E46012_20;Automatic-mode at M-0-A-switch pump 5
+E46012_21;Automatic-mode at M-0-A-switch pump 6
+E46012_22;Over-temperature motor pump 1
+E46012_23;Over-temperature motor pump 2
+E46012_24;Over-temperature motor pump 3
+E46012_25;Over-temperature motor pump 4
+E46012_26;Over-temperature motor pump 5
+E46012_27;Over-temperature motor pump 6
+E46012_28;External On/Off
+E46012_29;Fire alarm
+E46012_30;Acknowledge all
+E46012_31;Alternative set-point
+E46012_32;Triggered check-run
+E46012_33;Emergency power operation
+E46012_34;Forced flushing
+E46012_35;Module water quality sensor/monitoring
+E46012_36;Leakage-detection by external device
+E46012_37;Failure supply-valve
+E46012_38;Failure additional supply-valve
+M46013;Input 14 (extension board)
+E46013_0;None
+E46013_1;Pressure switch
+E46013_2;Float switch
+E46013_3;Flow switch
+E46013_4;Failure motor-circuit breaker pump 1
+E46013_5;Failure motor-circuit breaker pump 2
+E46013_6;Failure motor-circuit breaker pump 3
+E46013_7;Failure motor-circuit breaker pump 4
+E46013_8;Failure motor-circuit breaker pump 5
+E46013_9;Failure motor-circuit breaker pump 6
+E46013_10;Manual-mode at M-0-A-switch pump 1
+E46013_11;Manual-mode at M-0-A-switch pump 2
+E46013_12;Manual-mode at M-0-A-switch pump 3
+E46013_13;Manual-mode at M-0-A-switch pump 4
+E46013_14;Manual-mode at M-0-A-switch pump 5
+E46013_15;Manual-mode at M-0-A-switch pump 6
+E46013_16;Automatic-mode at M-0-A-switch pump 1
+E46013_17;Automatic-mode at M-0-A-switch pump 2
+E46013_18;Automatic-mode at M-0-A-switch pump 3
+E46013_19;Automatic-mode at M-0-A-switch pump 4
+E46013_20;Automatic-mode at M-0-A-switch pump 5
+E46013_21;Automatic-mode at M-0-A-switch pump 6
+E46013_22;Over-temperature motor pump 1
+E46013_23;Over-temperature motor pump 2
+E46013_24;Over-temperature motor pump 3
+E46013_25;Over-temperature motor pump 4
+E46013_26;Over-temperature motor pump 5
+E46013_27;Over-temperature motor pump 6
+E46013_28;External On/Off
+E46013_29;Fire alarm
+E46013_30;Acknowledge all
+E46013_31;Alternative set-point
+E46013_32;Triggered check-run
+E46013_33;Emergency power operation
+E46013_34;Forced flushing
+E46013_35;Module water quality sensor/monitoring
+E46013_36;Leakage-detection by external device
+E46013_37;Failure supply-valve
+E46013_38;Failure additional supply-valve
+M46014;Input 15 (extension board)
+E46014_0;None
+E46014_1;Pressure switch
+E46014_2;Float switch
+E46014_3;Flow switch
+E46014_4;Failure motor-circuit breaker pump 1
+E46014_5;Failure motor-circuit breaker pump 2
+E46014_6;Failure motor-circuit breaker pump 3
+E46014_7;Failure motor-circuit breaker pump 4
+E46014_8;Failure motor-circuit breaker pump 5
+E46014_9;Failure motor-circuit breaker pump 6
+E46014_10;Manual-mode at M-0-A-switch pump 1
+E46014_11;Manual-mode at M-0-A-switch pump 2
+E46014_12;Manual-mode at M-0-A-switch pump 3
+E46014_13;Manual-mode at M-0-A-switch pump 4
+E46014_14;Manual-mode at M-0-A-switch pump 5
+E46014_15;Manual-mode at M-0-A-switch pump 6
+E46014_16;Automatic-mode at M-0-A-switch pump 1
+E46014_17;Automatic-mode at M-0-A-switch pump 2
+E46014_18;Automatic-mode at M-0-A-switch pump 3
+E46014_19;Automatic-mode at M-0-A-switch pump 4
+E46014_20;Automatic-mode at M-0-A-switch pump 5
+E46014_21;Automatic-mode at M-0-A-switch pump 6
+E46014_22;Over-temperature motor pump 1
+E46014_23;Over-temperature motor pump 2
+E46014_24;Over-temperature motor pump 3
+E46014_25;Over-temperature motor pump 4
+E46014_26;Over-temperature motor pump 5
+E46014_27;Over-temperature motor pump 6
+E46014_28;External On/Off
+E46014_29;Fire alarm
+E46014_30;Acknowledge all
+E46014_31;Alternative set-point
+E46014_32;Triggered check-run
+E46014_33;Emergency power operation
+E46014_34;Forced flushing
+E46014_35;Module water quality sensor/monitoring
+E46014_36;Leakage-detection by external device
+E46014_37;Failure supply-valve
+E46014_38;Failure additional supply-valve
+M46015;Input 16 (extension board)
+E46015_0;None
+E46015_1;Pressure switch
+E46015_2;Float switch
+E46015_3;Flow switch
+E46015_4;Failure motor-circuit breaker pump 1
+E46015_5;Failure motor-circuit breaker pump 2
+E46015_6;Failure motor-circuit breaker pump 3
+E46015_7;Failure motor-circuit breaker pump 4
+E46015_8;Failure motor-circuit breaker pump 5
+E46015_9;Failure motor-circuit breaker pump 6
+E46015_10;Manual-mode at M-0-A-switch pump 1
+E46015_11;Manual-mode at M-0-A-switch pump 2
+E46015_12;Manual-mode at M-0-A-switch pump 3
+E46015_13;Manual-mode at M-0-A-switch pump 4
+E46015_14;Manual-mode at M-0-A-switch pump 5
+E46015_15;Manual-mode at M-0-A-switch pump 6
+E46015_16;Automatic-mode at M-0-A-switch pump 1
+E46015_17;Automatic-mode at M-0-A-switch pump 2
+E46015_18;Automatic-mode at M-0-A-switch pump 3
+E46015_19;Automatic-mode at M-0-A-switch pump 4
+E46015_20;Automatic-mode at M-0-A-switch pump 5
+E46015_21;Automatic-mode at M-0-A-switch pump 6
+E46015_22;Over-temperature motor pump 1
+E46015_23;Over-temperature motor pump 2
+E46015_24;Over-temperature motor pump 3
+E46015_25;Over-temperature motor pump 4
+E46015_26;Over-temperature motor pump 5
+E46015_27;Over-temperature motor pump 6
+E46015_28;External On/Off
+E46015_29;Fire alarm
+E46015_30;Acknowledge all
+E46015_31;Alternative set-point
+E46015_32;Triggered check-run
+E46015_33;Emergency power operation
+E46015_34;Forced flushing
+E46015_35;Module water quality sensor/monitoring
+E46015_36;Leakage-detection by external device
+E46015_37;Failure supply-valve
+E46015_38;Failure additional supply-valve
+M46016;Input 17 (extension board)
+E46016_0;None
+E46016_1;Pressure switch
+E46016_2;Float switch
+E46016_3;Flow switch
+E46016_4;Failure motor-circuit breaker pump 1
+E46016_5;Failure motor-circuit breaker pump 2
+E46016_6;Failure motor-circuit breaker pump 3
+E46016_7;Failure motor-circuit breaker pump 4
+E46016_8;Failure motor-circuit breaker pump 5
+E46016_9;Failure motor-circuit breaker pump 6
+E46016_10;Manual-mode at M-0-A-switch pump 1
+E46016_11;Manual-mode at M-0-A-switch pump 2
+E46016_12;Manual-mode at M-0-A-switch pump 3
+E46016_13;Manual-mode at M-0-A-switch pump 4
+E46016_14;Manual-mode at M-0-A-switch pump 5
+E46016_15;Manual-mode at M-0-A-switch pump 6
+E46016_16;Automatic-mode at M-0-A-switch pump 1
+E46016_17;Automatic-mode at M-0-A-switch pump 2
+E46016_18;Automatic-mode at M-0-A-switch pump 3
+E46016_19;Automatic-mode at M-0-A-switch pump 4
+E46016_20;Automatic-mode at M-0-A-switch pump 5
+E46016_21;Automatic-mode at M-0-A-switch pump 6
+E46016_22;Over-temperature motor pump 1
+E46016_23;Over-temperature motor pump 2
+E46016_24;Over-temperature motor pump 3
+E46016_25;Over-temperature motor pump 4
+E46016_26;Over-temperature motor pump 5
+E46016_27;Over-temperature motor pump 6
+E46016_28;External On/Off
+E46016_29;Fire alarm
+E46016_30;Acknowledge all
+E46016_31;Alternative set-point
+E46016_32;Triggered check-run
+E46016_33;Emergency power operation
+E46016_34;Forced flushing
+E46016_35;Module water quality sensor/monitoring
+E46016_36;Leakage-detection by external device
+E46016_37;Failure supply-valve
+E46016_38;Failure additional supply-valve
+M46017;Input 18 (extension board)
+E46017_0;None
+E46017_1;Pressure switch
+E46017_2;Float switch
+E46017_3;Flow switch
+E46017_4;Failure motor-circuit breaker pump 1
+E46017_5;Failure motor-circuit breaker pump 2
+E46017_6;Failure motor-circuit breaker pump 3
+E46017_7;Failure motor-circuit breaker pump 4
+E46017_8;Failure motor-circuit breaker pump 5
+E46017_9;Failure motor-circuit breaker pump 6
+E46017_10;Manual-mode at M-0-A-switch pump 1
+E46017_11;Manual-mode at M-0-A-switch pump 2
+E46017_12;Manual-mode at M-0-A-switch pump 3
+E46017_13;Manual-mode at M-0-A-switch pump 4
+E46017_14;Manual-mode at M-0-A-switch pump 5
+E46017_15;Manual-mode at M-0-A-switch pump 6
+E46017_16;Automatic-mode at M-0-A-switch pump 1
+E46017_17;Automatic-mode at M-0-A-switch pump 2
+E46017_18;Automatic-mode at M-0-A-switch pump 3
+E46017_19;Automatic-mode at M-0-A-switch pump 4
+E46017_20;Automatic-mode at M-0-A-switch pump 5
+E46017_21;Automatic-mode at M-0-A-switch pump 6
+E46017_22;Over-temperature motor pump 1
+E46017_23;Over-temperature motor pump 2
+E46017_24;Over-temperature motor pump 3
+E46017_25;Over-temperature motor pump 4
+E46017_26;Over-temperature motor pump 5
+E46017_27;Over-temperature motor pump 6
+E46017_28;External On/Off
+E46017_29;Fire alarm
+E46017_30;Acknowledge all
+E46017_31;Alternative set-point
+E46017_32;Triggered check-run
+E46017_33;Emergency power operation
+E46017_34;Forced flushing
+E46017_35;Module water quality sensor/monitoring
+E46017_36;Leakage-detection by external device
+E46017_37;Failure supply-valve
+E46017_38;Failure additional supply-valve
+G1_3_4;Digital output
+M46050;Output 1
+E46050_0;None
+E46050_1;Start/Stop pump 1
+E46050_2; Start/Stop pump 2
+E46050_3;Start/Stop pump 3
+E46050_4;Start/Stop pump 4
+E46050_5;Start/Stop pump 5
+E46050_6;Start/Stop pump 6
+E46050_1;Pump-running pump 1
+E46050_2;Pump-running pump 2
+E46050_3;Pump-running pump 3
+E46050_4;Pump-running pump 4
+E46050_5;Pump-running pump 5
+E46050_6;Pump-running pump 6
+E46050_7;Tank-filling solenoid valve
+E46050_8;Flushing valve
+E46050_9;Run-dry protection active
+M46051;Output 2
+E46051_0;None
+E46051_1;Start/Stop pump 1
+E46051_2; Start/Stop pump 2
+E46051_3;Start/Stop pump 3
+E46051_4;Start/Stop pump 4
+E46051_5;Start/Stop pump 5
+E46051_6;Start/Stop pump 6
+E46051_1;Pump-running pump 1
+E46051_2;Pump-running pump 2
+E46051_3;Pump-running pump 3
+E46051_4;Pump-running pump 4
+E46051_5;Pump-running pump 5
+E46051_6;Pump-running pump 6
+E46051_7;Tank-filling solenoid valve
+E46051_8;Flushing valve
+E46051_9;Run-dry protection active
+M46052;Output 3
+E46052_0;None
+E46052_1;Start/Stop pump 1
+E46052_2; Start/Stop pump 2
+E46052_3;Start/Stop pump 3
+E46052_4;Start/Stop pump 4
+E46052_5;Start/Stop pump 5
+E46052_6;Start/Stop pump 6
+E46052_1;Pump-running pump 1
+E46052_2;Pump-running pump 2
+E46052_3;Pump-running pump 3
+E46052_4;Pump-running pump 4
+E46052_5;Pump-running pump 5
+E46052_6;Pump-running pump 6
+E46052_7;Tank-filling solenoid valve
+E46052_8;Flushing valve
+E46052_9;Run-dry protection active
+M46053;Output 4
+E46053_0;None
+E46053_1;Start/Stop pump 1
+E46053_2; Start/Stop pump 2
+E46053_3;Start/Stop pump 3
+E46053_4;Start/Stop pump 4
+E46053_5;Start/Stop pump 5
+E46053_6;Start/Stop pump 6
+E46053_1;Pump-running pump 1
+E46053_2;Pump-running pump 2
+E46053_3;Pump-running pump 3
+E46053_4;Pump-running pump 4
+E46053_5;Pump-running pump 5
+E46053_6;Pump-running pump 6
+E46053_7;Tank-filling solenoid valve
+E46053_8;Flushing valve
+E46053_9;Run-dry protection active
+M46054;Output 5 (extension board)
+E46054_0;None
+E46054_1;Start/Stop pump 1
+E46054_2; Start/Stop pump 2
+E46054_3;Start/Stop pump 3
+E46054_4;Start/Stop pump 4
+E46054_5;Start/Stop pump 5
+E46054_6;Start/Stop pump 6
+E46054_1;Pump-running pump 1
+E46054_2;Pump-running pump 2
+E46054_3;Pump-running pump 3
+E46054_4;Pump-running pump 4
+E46054_5;Pump-running pump 5
+E46054_6;Pump-running pump 6
+E46054_7;Tank-filling solenoid valve
+E46054_8;Flushing valve
+E46054_9;Run-dry protection active
+M46055;Output 6  (extension board)
+E46055_0;None
+E46055_1;Start/Stop pump 1
+E46055_2; Start/Stop pump 2
+E46055_3;Start/Stop pump 3
+E46055_4;Start/Stop pump 4
+E46055_5;Start/Stop pump 5
+E46055_6;Start/Stop pump 6
+E46055_1;Pump-running pump 1
+E46055_2;Pump-running pump 2
+E46055_3;Pump-running pump 3
+E46055_4;Pump-running pump 4
+E46055_5;Pump-running pump 5
+E46055_6;Pump-running pump 6
+E46055_7;Tank-filling solenoid valve
+E46055_8;Flushing valve
+E46055_9;Run-dry protection active
+M46056;Output 7  (extension board)
+E46056_0;None
+E46056_1;Start/Stop pump 1
+E46056_2; Start/Stop pump 2
+E46056_3;Start/Stop pump 3
+E46056_4;Start/Stop pump 4
+E46056_5;Start/Stop pump 5
+E46056_6;Start/Stop pump 6
+E46056_1;Pump-running pump 1
+E46056_2;Pump-running pump 2
+E46056_3;Pump-running pump 3
+E46056_4;Pump-running pump 4
+E46056_5;Pump-running pump 5
+E46056_6;Pump-running pump 6
+E46056_7;Tank-filling solenoid valve
+E46056_8;Flushing valve
+E46056_9;Run-dry protection active
+M46057;Output 8  (extension board)
+E46057_0;None
+E46057_1;Start/Stop pump 1
+E46057_2; Start/Stop pump 2
+E46057_3;Start/Stop pump 3
+E46057_4;Start/Stop pump 4
+E46057_5;Start/Stop pump 5
+E46057_6;Start/Stop pump 6
+E46057_1;Pump-running pump 1
+E46057_2;Pump-running pump 2
+E46057_3;Pump-running pump 3
+E46057_4;Pump-running pump 4
+E46057_5;Pump-running pump 5
+E46057_6;Pump-running pump 6
+E46057_7;Tank-filling solenoid valve
+E46057_8;Flushing valve
+E46057_9;Run-dry protection active
+M46058;Output 9  (extension board)
+E46058_0;None
+E46058_1;Start/Stop pump 1
+E46058_2; Start/Stop pump 2
+E46058_3;Start/Stop pump 3
+E46058_4;Start/Stop pump 4
+E46058_5;Start/Stop pump 5
+E46058_6;Start/Stop pump 6
+E46058_1;Pump-running pump 1
+E46058_2;Pump-running pump 2
+E46058_3;Pump-running pump 3
+E46058_4;Pump-running pump 4
+E46058_5;Pump-running pump 5
+E46058_6;Pump-running pump 6
+E46058_7;Tank-filling solenoid valve
+E46058_8;Flushing valve
+E46058_9;Run-dry protection active
+M46059;Output 10  (extension board)
+E46059_0;None
+E46059_1;Start/Stop pump 1
+E46059_2; Start/Stop pump 2
+E46059_3;Start/Stop pump 3
+E46059_4;Start/Stop pump 4
+E46059_5;Start/Stop pump 5
+E46059_6;Start/Stop pump 6
+E46059_1;Pump-running pump 1
+E46059_2;Pump-running pump 2
+E46059_3;Pump-running pump 3
+E46059_4;Pump-running pump 4
+E46059_5;Pump-running pump 5
+E46059_6;Pump-running pump 6
+E46059_7;Tank-filling solenoid valve
+E46059_8;Flushing valve
+E46059_9;Run-dry protection active
+M46060;Output 11  (extension board)
+E46060_0;None
+E46060_1;Start/Stop pump 1
+E46060_2; Start/Stop pump 2
+E46060_3;Start/Stop pump 3
+E46060_4;Start/Stop pump 4
+E46060_5;Start/Stop pump 5
+E46060_6;Start/Stop pump 6
+E46060_1;Pump-running pump 1
+E46060_2;Pump-running pump 2
+E46060_3;Pump-running pump 3
+E46060_4;Pump-running pump 4
+E46060_5;Pump-running pump 5
+E46060_6;Pump-running pump 6
+E46060_7;Tank-filling solenoid valve
+E46060_8;Flushing valve
+E46060_9;Run-dry protection active
+M46061;Output 12  (extension board)
+E46061_0;None
+E46061_1;Start/Stop pump 1
+E46061_2; Start/Stop pump 2
+E46061_3;Start/Stop pump 3
+E46061_4;Start/Stop pump 4
+E46061_5;Start/Stop pump 5
+E46061_6;Start/Stop pump 6
+E46061_1;Pump-running pump 1
+E46061_2;Pump-running pump 2
+E46061_3;Pump-running pump 3
+E46061_4;Pump-running pump 4
+E46061_5;Pump-running pump 5
+E46061_6;Pump-running pump 6
+E46061_7;Tank-filling solenoid valve
+E46061_8;Flushing valve
+E46061_9;Run-dry protection active
+G1_3_5;Analog input Temperature
+M41022$1;Analog input PT100/PT1000
+E41022$1_0;Disabled
+E41022$1_1;Enabled
+M41023;Selection of thermometer-resistance
+E41023_0;Pt100
+E41023_1;Pt1000
+M41024;Selection of thermometer function
+E41024_0;Ambient temperature
+E41024_1;Water temperature
+G1_3_6;Analog input Water-detection
+G1_3_6_1;Analog input Water-detection
+M999056;Analog input Water-detection
+E999056_0;Disabled
+E999056_1;Enabled
+G1_3_7;Calibration
+G1_3_7_1;Sensors
+G1_3_7_1_1;Pressure sensor at suction side
+M45014;Value at 4 mA
+M45016;Value at 20 mA
+G1_3_7_1_2;Pressure sensor at discharge side
+M45010;Value at 4 mA
+M45012;Value at 20 mA
+G1_3_7_1_3;Pressure sensor at tank
+M46331;Value at 4 mA
+M46332;Value at 20 mA
+G1_3_7_1_4;Set-point
+M999057;Value at 4 mA
+M999058;Value at 20 mA
+G1_3_7_2;Output-signal
+G1_3_7_2_1;Suction-side pressure
+M999059;Selection of output-current range
+E999059_0;0 … 20 mA
+E999059_1;4 mA … 20 mA
+M999060;Value at 0/4 mA
+M999061;Value at 20 mA
+G1_3_7_2_2;Discharge-side pressure
+M999062;Discharge-side pressure
+M999063;Selection of output-current range
+E999063_0;0 … 20 mA
+E999063_1;4 mA … 20 mA
+M999064;Value at 0/4 mA
+M999065;Value at 20 mA
+G1_3_7_2_3;Tank-filling proportional valve
+M999066;Tank-filling proportional valve
+M999067;Selection of output-current range
+E999067_0;0 … 20 mA
+E999067_1;4 mA … 20 mA
+M999068;Value at 0/4 mA
+M999069;Value at 20 mA
+G1_3_7_2_4;Tank level height
+M999070;Tank level height
+M999071;Selection of output-current range
+E999071_0;0 … 20 mA
+E999071_1;4 mA … 20 mA
+M999072;Value at 0/4 mA
+M999073;Value at 20 mA
+G1_4;Fieldbus
+M48550;Modbus RTU
+E48550_0;Disabled
+E48550_1;Enabled
+M48551;Slave address
+M48552;Baudrate
+E48552_0;9600 kBit/s
+E48552_1;19200 kBit/s
+E48552_2;38400 kBit/s
+M48553;Parity
+E48553_0;None
+E48553_1;Odd
+E48553_2;Even
+G1_5;Bluetooth
+M999074;Bluetooth status
+E999074_0;Disabled
+E999074_1;Enabled
+M999075;Time for login
+M48610;Status
+E48610_0; ADVERTISING
+E48610_1; CONNECTED
+E48610_2; DISCONNECTED
+E48610_3; PASSKEY
+E48610_4; GATTC_TIMEOUT
+E48610_5; GATTS_TIMEOUT
+E48610_6; PAIRED
+E48610_7; PAIR_FAILED
+E48610_8; OFF
+G1_6;Display
+G1_6_1;Time-out lighting
+M41018;Time-out display
+M41019;Time-out display when message active
+G1_6_2;Display units
+M41020;Pressure
+E41020_0;bar
+E41020_1;PSI
+M999076;Height
+E999076_0;cm
+E999076_1;%
+M41021;Temperature
+E41021_0;°C
+E41021_1;°F
+G1_7;Time and date
+G1_7_1;Time
+M49402;Hours
+M49401;Minutes
+M49400;Seconds
+G1_7_2;Date
+M49405;Year
+M49404;Month
+M49403;Day
+M49406;Day of week
+G1_8;Service required
+M41026;Service interval
+E41026_1;Enabled
+E41026_0;Disabled
+M41028;Timestamp of last service performed
+M41027;Time interval for service required
+M41030;Reset of service required (sets 970 to now)
+G2;Setting
+G2_1;Pressure
+M40006;Set-point
+M40007;Bandwidth
+M40008;Alternative set-point
+M41080;Alternative set-point selection by time enable
+E41080_0;Disabled
+E41080_1;Enabled
+M41081;Alternative set-point start time
+M41082;Alternative set-point stop time
+G2_2;Pumps
+G2_2_1;Pump operating mode
+M41009;Pump 1
+E41009_2;Manual-On
+E41009_1;Manual-Off
+E41009_0;Automatic
+M41010;Pump 2
+E41010_2;Manual-On
+E41010_1;Manual-Off
+E41010_0;Automatic
+M41011;Pump 3
+E41011_2;Manual-On
+E41011_1;Manual-Off
+E41011_0;Automatic
+M41012;Pump 4
+E41012_2;Manual-On
+E41012_1;Manual-Off
+E41012_0;Automatic
+M41013;Pump 5
+E41013_2;Manual-On
+E41013_1;Manual-Off
+E41013_0;Automatic
+M41014;Pump 6
+E41014_2;Manual-On
+E41014_1;Manual-Off
+E41014_0;Automatic
+G2_2_2;Rainwater operating mode
+M41052;Rainwater pump 1
+E41052_2;Manual-On
+E41052_1;Manual-Off
+E41052_0;Automatic
+M41053;Rainwater pump 2
+E41053_2;Manual-On
+E41053_1;Manual-Off
+E41053_0;Automatic
+G2_3;Timers
+M46202;Start-delay time
+M46203;Stop-delay time
+M46204;Minimum runtime
+M46205;Minimum runtime correction step
+G2_4;Pump protection
+G2_4_1;General
+M999077;Maximum number of pump starts per hour
+M46500;Minimum frequency
+M46501;Maximum frequency
+M999078;Frequency at manual operating mode
+M46211;Reaction of pump on failure pressure sensor
+E46211_0;Stop all pumps
+E46211_1;Freeze number of pumps running at jogging speed
+E46211_2;Running one pump with jogging speed
+E46211_3;Running two pumps with jogging speed
+E46211_4;Running three pumps with jogging speed
+E46211_5;Running four pumps with jogging speed
+E46211_6;Running five pumps with jogging speed
+E46211_7;Running six pumps with jogging speed
+M46210;Reaction of pump on failure pressure sensor
+E46210_0;Stop all pumps
+E46210_1;Freeze number of pumps running
+E46210_2;Running one pump
+E46210_3;Running two pumps
+E46210_4;Running three pumps
+E46210_5;Running four pumps
+E46210_6;Running five pumps
+E46210_7;Running six pumps
+M46213;Pump speed on failure pressure sensor
+G2_4_2;Change-over within pump-group
+M46208;Change-over within pump-group
+E46208_0;Disabled
+E46208_1;Enabled
+M46206;Maximum runtime
+M46209;Over-/Under-supply
+E46209_0;Over-supply
+E46209_1;Under-supply
+M46216;Time of over-/under-supply
+M46224;Ramp up time
+E46224;0 … 60 s
+M46225;Ramp down time
+G2_4_3;Change-over of jockey-pump to base-load pumps
+M46226;Over-/Under-supply
+E46226_0;Over-supply
+E46226_1;Under-supply
+M46227;Time of over-/under-supply
+G2_4_4;Check-run
+M46218;Check-run
+E46218_0;Disabled
+E46218_1;Enabled
+M46219;Function
+E46219_0;Time-dependable
+E46219_1;Time-configured
+E46219_2;Triggered check-run
+M46220;Time-duration
+M46222;Still-standing time
+M46221;Time-stamp for execution
+G2_4_5;Short-pressure deviations
+M999079;Short-pressure deviations
+E999079_0;Disabled
+E999079_1;Enabled
+M46200;Waiting-time for switch-on pumps
+M46201;Waiting-time for switch-off pumps
+G2_4_6;No-flow detection
+M46600;Pump-speed for activating
+M46601;Time within bandwidth
+M46602;Step time
+M46603;Step-height of speed
+M46604;Bandwidth
+M46605;Speed for stopping last pump
+G2_4_7;Dynamic pressure set-point compensation
+M41085;Dynamic pressure set-point compensation
+E41085_1;Enabled
+E41085_0;Disabled
+M41086;Maximum discharge-side pressure deviation
+G2_4_8;Motor Circuit Breaker
+M46214;Trigger Active High/Low
+E46214_0;Active High
+E46214_1;Active Low
+M46215;Trigger Delay
+G2_5;System protection
+G2_5_1;Dry-running protection
+G2_5_1_1;Source
+M46300;Source
+E46300_0;None
+E46300_1;Pressure sensor at suction-side
+E46300_2;Pressure sensor at tank
+E46300_3;Pressure switch
+E46300_4;Float switch
+E46300_5;Flow switch
+M46301;Delay time shut-down
+M46302;Delay time reset
+M46303;Maximum number of dry-running protection events per hour
+M46312;Run-dry protection stop delay
+G2_5_1_2;Additional source
+M46304;Additional source
+E46304_0;None
+E46304_1;Pressure sensor at suction-side
+E46304_2;Pressure sensor at tank
+E46304_3;Pressure switch
+E46304_4;Float switch
+E46304_5;Flow switch
+M46305;Delay time shut-down
+M46306;Delay time reset
+G2_5_1_3;Pressure sensor at suction-side
+M46307;Minimum suction-side pressure for shut-down
+M46308;Minimum suction-side pressure for reset
+G2_5_1_4;Pressure sensor at tank
+M46331;Level at lower pressure-range end
+M46332;Level at upper pressure-range end
+M46309;Minimum filling level for shut-down
+M46310;Minimum filling level for reset
+G2_5_1_5;Pressure switch
+M999080;Pressure switch
+G2_5_1_6;Float switch
+M999081;Float switch
+G2_5_1_7;Flow switch
+M999082;Flow switch
+M46311;Current pressure deviation
+G2_5_2;Leakage detection
+M46350;Leakage detection
+E46350_1;Enabled
+E46350_0;Disabled
+M46351;Source
+E46351_0;Water-detection on-board
+E46351_1;Leakage-detection by external device
+M999083;Digital input
+M46352;Position
+E46352_0;Leakage of pump-system
+E46352_1;Overflow of tank
+M46353;Reaction
+E46353_0;Only message
+E46353_1;Message and all pumps stopped
+E46353_2;Message and supply-valve closed
+E46353_3;Message, supply-valve closed and pumps stopped
+M46354;Delay time leakage
+M46355;Delay time reset
+G2_5_3;Hygienic functions
+G2_5_3_1;General
+M46360$0;Hygienic functions
+E46360$0_1;Enabled
+E46360$0_0;Disabled
+G2_5_3_2;Temperature monitoring
+M46360$1;Temperature monitoring
+E46360$1_1;Enabled
+E46360$1_0;Disabled
+M999084;Maximum temperature
+M999085;Reaction
+E999085_0;Message
+E999085_1;Message and Flushing
+G2_5_3_3;Water-stagnation monitoring
+M46360$2;Water-stagnation monitoring
+E46360$2_1;Enabled
+E46360$2_0;Disabled
+M999086;Source
+E999086_0;Flow sensor
+E999086_1;Flow switch
+E999086_2;Flow estimation (VFD)
+M46365;Time for stagnation
+M46366;Reaction
+E46366_0;Message
+E46366_1;Message and Flushing with check-run
+G2_5_3_4;Forced flushing
+M46360$3;Forced flushing
+E46360$3_1;Enabled
+E46360$3_0;Disabled
+M999087;Digital input
+G2_5_3_5;Flushing function
+M999088;Digital output
+M46361;Minimum flushing time
+M46362;Maximum flushing time
+M46364;Maximum flushing attempts at 24 hours
+M999089;Stop-temperature for flushing
+M46363;Flushing time for each pump
+G2_5_4;External power-supply operating
+M999090;Digital input
+M46370;Maximum system load
+M46371;Regard of stop-delay
+E46371_1;Enabled
+E46371_0;Disabled
+G2_5_5;Monitoring discharge pressure
+G2_5_5_1;Alarm high pressure
+M46325;Maximum discharge pressure
+M46323;Delay-time
+M46324;Selection of pump reaction
+E46324_0;Message
+E46324_1;Message and all pumps stopped
+G2_5_5_2;Alarm low pressure
+M46322;Minimum discharge pressure
+M46320;Delay-time
+M46321;Selection of pump reaction
+E46321_0;Message
+E46321_1;Message and all pumps stopped
+G2_5_6;Pipe filling function
+M999091;Pipe filling function
+E999091_1;Enabled
+E999091_0;Disabled
+M999092;Deviation from set-point
+M999093;Ramp-time for increasing set-point
+M999094;Minimum pressure increase
+M999095;Maximum number of attempts
+G2_6;Pressure-vessel
+M41022$0;Pressure-vessel
+E41022$0_1;Enabled
+E41022$0_0;Disabled
+M46217;Additional set-point step
+G2_7;Tank
+G2_7_1;Drinkingwater
+G2_7_1_1;Drinkingwater filling
+M46380;Drinkingwater filling
+E46380_1;Enabled
+E46380_0;Disabled
+G2_7_1_2;Tank level
+M46330;Source for level-measurement
+E46330_0;None
+E46330_1;Pressure sensor at suction-side
+E46330_2;Pressure sensor at tank
+M46331;Level at 0/4 mA
+M46332;Level at 20 mA
+M46333;Absolute height at 0 %
+M46334;Absolute height at 100 %
+M46335;Position of sensor above tank-bottom
+M46336;Critical-water level
+M46337;Critical-water reset level
+M46341;Start tank-filling additional level
+M46340;Start tank-filling level
+M46343;Stop tank-filling additional level
+M46342;Stop tank-filling level
+M46339;High-water reset level
+M46338;High-water level
+G2_7_1_3;Water supply
+M46381;Supply-valve type
+E46381_0;Tank-filling solenoid valve
+E46381_1;Tank-filling proportional valve
+M46382;Minimum opening-angle of valve
+M46383;Step-width for driving the valve
+G2_7_1_4;Additional water supply
+M46384;Additional water supply
+E46384_0;Disabled
+E46384_1;Enabled
+M46385;Supply-valve type
+E46385_0;Additional tank-filling solenoid valve
+E46385_1;Tank-filling proportional valve
+M46386;Minimum opening-angle of valve
+M46387;Step-width for driving the valve
+G2_7_1_5;Drinking-water protection
+M46390;Drinking-water protection
+E46390_0;Disabled
+E46390_1;Enabled
+M46391;Maximum time between usage of drinking water
+M46392;Reaction
+E46392_0;Only message
+E46392_1;Message and flushing supply-valve
+M46393;Time for flushing drinking-water supply
+M46394;Overflow by exceeding high-water level
+E46394_0;Not allowed
+E46394_1;Allowed with message
+E46394_2;Allowed without message
+G2_7_2;Rainwater
+G2_7_2_1;Rainwater filling
+M45100;Rainwater filling
+E45100_0;Disabled
+E45100_1;Enabled
+G2_7_2_2;Rainwater pumps
+M999096;Source for run-dry protection rainwater pump
+E999096_0;None
+E999096_1;Float switch at rainwater tank
+M999097;Digital input for float switch at rainwater tank
+M999098;Delay time shut-down
+M999099;Delay time reset
+M45105;Number of rainwater pumps
+M999100;Digital output rainwater pump 1
+M999101;Digital output rainwater pump 2
+M999102;Maximum run-time
+M999103;Change-over delay
+M999104;Maximum number of pump starts per hour
+G2_7_2_3;Tank level
+M999105;Start tank-filling level drinkingwater
+M999106;Stop tank-filling level drinkingwater
+M999107;Start tank-filling level rainwater
+M999108;Stop tank-filling level rainwater
+G2_8;Control algorithms
+G2_8_1;PID controller
+M45018;Proportional part
+M45019;Integral part
+M45020;Differential part
+G2_8_2;Input signals
+M999109;Damping factor
+G2_8_3;Start-up time delay
+M999110;Start-up time delay
+G2_9;Messages
+G2_9_1;Lack of water
+M44000$0_1;Status
+E44000$0_1_00; Information
+E44000$0_1_01; Warning
+E44000$0_1_10; Alarm
+G2_9_1_1;Reset
+M44000$2;Reset
+E44000$2_0; Manual reset
+E44000$2_1; Auto reset
+G2_9_1_2;Relay function
+M44000$3;Relay function
+E44000$3_0; Disabled
+E44000$3_1; Enabled
+G2_9_2;Pressure suction-side too low
+M999111;Status
+E999111_00; Information
+E999111_01; Warning
+E999111_10; Alarm
+G2_9_2_1;Reset
+M999112;Reset
+E999112_0; Manual reset
+E999112_1; Auto reset
+G2_9_2_2;Relay function
+M999113;Relay function
+E999113_0; Disabled
+E999113_1; Enabled
+G2_9_3;Tank filling-height too low
+M999114;Status
+E999114_00; Information
+E999114_01; Warning
+E999114_10; Alarm
+G2_9_3_1;Reset
+M999115;Reset
+E999115_0; Manual reset
+E999115_1; Auto reset
+G2_9_3_2;Relay function
+M999116;Relay function
+E999116_0; Disabled
+E999116_1; Enabled
+G2_9_4;Tank filling-height critical
+M44003$0_1;Status
+E44003$0_1_00; Information
+E44003$0_1_01; Warning
+E44003$0_1_10; Alarm
+G2_9_4_1;Reset
+M44003$2;Reset
+E44003$2_0; Manual reset
+E44003$2_1; Auto reset
+G2_9_4_2;Relay function
+M44003$3;Relay function
+E44003$3_0; Disabled
+E44003$3_1; Enabled
+G2_9_5;Tank filling-height too high
+M44004$0_1;Status
+E44004$0_1_00; Information
+E44004$0_1_01; Warning
+E44004$0_1_10; Alarm
+G2_9_5_1;Reset
+M44004$2;Reset
+E44004$2_0; Manual reset
+E44004$2_1; Auto reset
+G2_9_5_2;Relay function
+M44004$3;Relay function
+E44004$3_0; Disabled
+E44004$3_1; Enabled
+G2_9_6;Pressure discharge-side too low
+M44005$0_1;Status
+E44005$0_1_00; Information
+E44005$0_1_01; Warning
+E44005$0_1_10; Alarm
+G2_9_6_1;Reset
+M44005$2;Reset
+E44005$2_0; Manual reset
+E44005$2_1; Auto reset
+G2_9_6_2;Relay function
+M44005$3;Relay function
+E44005$3_0; Disabled
+E44005$3_1; Enabled
+G2_9_7;Pressure discharge-side too high
+M44006$0_1;Status
+E44006$0_1_00; Information
+E44006$0_1_01; Warning
+E44006$0_1_10; Alarm
+G2_9_7_1;Reset
+M44006$2;Reset
+E44006$2_0; Manual reset
+E44006$2_1; Auto reset
+G2_9_7_2;Relay function
+M44006$3;Relay function
+E44006$3_0; Disabled
+E44006$3_1; Enabled
+G2_9_8;Service required
+M44007$0_1;Status
+E44007$0_1_00; Information
+E44007$0_1_01; Warning
+E44007$0_1_10; Alarm
+G2_9_8_1;Reset
+M44007$2;Reset
+E44007$2_0; Manual reset
+E44007$2_1; Auto reset
+G2_9_8_2;Relay function
+M44007$3;Relay function
+E44007$3_0; Disabled
+E44007$3_1; Enabled
+G2_9_9;Failure pressure sensor suction-side
+M44008$0_1;Status
+E44008$0_1_00; Information
+E44008$0_1_01; Warning
+E44008$0_1_10; Alarm
+G2_9_9_1;Reset
+M44008$2;Reset
+E44008$2_0; Manual reset
+E44008$2_1; Auto reset
+G2_9_9_2;Relay function
+M44008$3;Relay function
+E44008$3_0; Disabled
+E44008$3_1; Enabled
+G2_9_10;Failure pressure sensor discharge-side
+M44009$0_1;Status
+E44009$0_1_00; Information
+E44009$0_1_01; Warning
+E44009$0_1_10; Alarm
+G2_9_10_1;Reset
+M44009$2;Reset
+E44009$2_0; Manual reset
+E44009$2_1; Auto reset
+G2_9_10_2;Relay function
+M44009$3;Relay function
+E44009$3_0; Disabled
+E44009$3_1; Enabled
+G2_9_11;Failure pressure sensor at tank
+M44010$0_1;Status
+E44010$0_1_00; Information
+E44010$0_1_01; Warning
+E44010$0_1_10; Alarm
+G2_9_11_1;Reset
+M44010$2;Reset
+E44010$2_0; Manual reset
+E44010$2_1; Auto reset
+G2_9_11_2;Relay function
+M44010$3;Relay function
+E44010$3_0; Disabled
+E44010$3_1; Enabled
+G2_9_12;Wire-break pressure sensor suction-side
+M44011$0_1;Status
+E44011$0_1_00; Information
+E44011$0_1_01; Warning
+E44011$0_1_10; Alarm
+G2_9_12_1;Reset
+M44011$2;Reset
+E44011$2_0; Manual reset
+E44011$2_1; Auto reset
+G2_9_12_2;Relay function
+M44011$3;Relay function
+E44011$3_0; Disabled
+E44011$3_1; Enabled
+G2_9_13;Wire-break pressure sensor discharge-side
+M44012$0_1;Status
+E44012$0_1_00; Information
+E44012$0_1_01; Warning
+E44012$0_1_10; Alarm
+G2_9_13_1;Reset
+M44012$2;Reset
+E44012$2_0; Manual reset
+E44012$2_1; Auto reset
+G2_9_13_2;Relay function
+M44012$3;Relay function
+E44012$3_0; Disabled
+E44012$3_1; Enabled
+G2_9_14;Wire-break pressure sensor at tank
+M44013$0_1;Status
+E44013$0_1_00; Information
+E44013$0_1_01; Warning
+E44013$0_1_10; Alarm
+G2_9_14_1;Reset
+M44013$2;Reset
+E44013$2_0; Manual reset
+E44013$2_1; Auto reset
+G2_9_14_2;Relay function
+M44013$3;Relay function
+E44013$3_0; Disabled
+E44013$3_1; Enabled
+G2_9_15;Short-circuit pressure sensor suction-side
+M44014$0_1;Status
+E44014$0_1_00; Information
+E44014$0_1_01; Warning
+E44014$0_1_10; Alarm
+G2_9_15_1;Reset
+M44014$2;Reset
+E44014$2_0; Manual reset
+E44014$2_1; Auto reset
+G2_9_15_2;Relay function
+M44014$3;Relay function
+E44014$3_0; Disabled
+E44014$3_1; Enabled
+G2_9_16;Short-circuit pressure sensor discharge-side
+M44015$0_1;Status
+E44015$0_1_00; Information
+E44015$0_1_01; Warning
+E44015$0_1_10; Alarm
+G2_9_16_1;Reset
+M44015$2;Reset
+E44015$2_0; Manual reset
+E44015$2_1; Auto reset
+G2_9_16_2;Relay function
+M44015$3;Relay function
+E44015$3_0; Disabled
+E44015$3_1; Enabled
+G2_9_17;Short-circuit pressure sensor at tank
+M44016$0_1;Status
+E44016$0_1_00; Information
+E44016$0_1_01; Warning
+E44016$0_1_10; Alarm
+G2_9_17_1;Reset
+M44016$2;Reset
+E44016$2_0; Manual reset
+E44016$2_1; Auto reset
+G2_9_17_2;Relay function
+M44016$3;Relay function
+E44016$3_0; Disabled
+E44016$3_1; Enabled
+G2_9_18;Failure supply valve
+M44017$0_1;Status
+E44017$0_1_00; Information
+E44017$0_1_01; Warning
+E44017$0_1_10; Alarm
+G2_9_18_1;Reset
+M44017$2;Reset
+E44017$2_0; Manual reset
+E44017$2_1; Auto reset
+G2_9_18_2;Relay function
+M44017$3;Relay function
+E44017$3_0; Disabled
+E44017$3_1; Enabled
+G2_9_19;Failure additional supply valve
+M44018$0_1;Status
+E44018$0_1_00; Information
+E44018$0_1_01; Warning
+E44018$0_1_10; Alarm
+G2_9_19_1;Reset
+M44018$2;Reset
+E44018$2_0; Manual reset
+E44018$2_1; Auto reset
+G2_9_19_2;Relay function
+M44018$3;Relay function
+E44018$3_0; Disabled
+E44018$3_1; Enabled
+G2_9_20;Failure temperature sensor
+M44019$0_1;Status
+E44019$0_1_00; Information
+E44019$0_1_01; Warning
+E44019$0_1_10; Alarm
+G2_9_20_1;Reset
+M44019$2;Reset
+E44019$2_0; Manual reset
+E44019$2_1; Auto reset
+G2_9_20_2;Relay function
+M44019$3;Relay function
+E44019$3_0; Disabled
+E44019$3_1; Enabled
+G2_9_21;Leakage of pump system
+M44020$0_1;Status
+E44020$0_1_00; Information
+E44020$0_1_01; Warning
+E44020$0_1_10; Alarm
+G2_9_21_1;Reset
+M44020$2;Reset
+E44020$2_0; Manual reset
+E44020$2_1; Auto reset
+G2_9_21_2;Relay function
+M44020$3;Relay function
+E44020$3_0; Disabled
+E44020$3_1; Enabled
+G2_9_22;Overflow of tank
+M44021$0_1;Status
+E44021$0_1_00; Information
+E44021$0_1_01; Warning
+E44021$0_1_10; Alarm
+G2_9_22_1;Reset
+M44021$2;Reset
+E44021$2_0; Manual reset
+E44021$2_1; Auto reset
+G2_9_22_2;Relay function
+M44021$3;Relay function
+E44021$3_0; Disabled
+E44021$3_1; Enabled
+G2_9_23;Temperature too high
+M999117;Status
+E999117_00; Information
+E999117_01; Warning
+E999117_10; Alarm
+G2_9_23_1;Reset
+M999118;Reset
+E999118_0; Manual reset
+E999118_1; Auto reset
+G2_9_23_2;Relay function
+M999119;Relay function
+E999119_0; Disabled
+E999119_1; Enabled
+G2_9_24;Flushing
+M44023$0_1;Status
+E44023$0_1_00; Information
+E44023$0_1_01; Warning
+E44023$0_1_10; Alarm
+G2_9_24_1;Reset
+M44023$2;Reset
+E44023$2_0; Manual reset
+E44023$2_1; Auto reset
+G2_9_24_2;Relay function
+M44023$3;Relay function
+E44023$3_0; Disabled
+E44023$3_1; Enabled
+G2_9_25;Flushing too oftenly
+M44024$0_1;Status
+E44024$0_1_00; Information
+E44024$0_1_01; Warning
+E44024$0_1_10; Alarm
+G2_9_25_1;Reset
+M44024$2;Reset
+E44024$2_0; Manual reset
+E44024$2_1; Auto reset
+G2_9_25_2;Relay function
+M44024$3;Relay function
+E44024$3_0; Disabled
+E44024$3_1; Enabled
+G2_9_26;External Off
+M44025$0_1;Status
+E44025$0_1_00; Information
+E44025$0_1_01; Warning
+E44025$0_1_10; Alarm
+G2_9_26_1;Reset
+M44025$2;Reset
+E44025$2_0; Manual reset
+E44025$2_1; Auto reset
+G2_9_26_2;Relay function
+M44025$3;Relay function
+E44025$3_0; Disabled
+E44025$3_1; Enabled
+G2_9_27;Fire alarm
+M44026$0_1;Status
+E44026$0_1_00; Information
+E44026$0_1_01; Warning
+E44026$0_1_10; Alarm
+G2_9_27_1;Reset
+M44026$2;Reset
+E44026$2_0; Manual reset
+E44026$2_1; Auto reset
+G2_9_27_2;Relay function
+M44026$3;Relay function
+E44026$3_0; Disabled
+E44026$3_1; Enabled
+G2_9_28;Emergency power supply
+M44027$0_1;Status
+E44027$0_1_00; Information
+E44027$0_1_01; Warning
+E44027$0_1_10; Alarm
+G2_9_28_1;Reset
+M44027$2;Reset
+E44027$2_0; Manual reset
+E44027$2_1; Auto reset
+G2_9_28_2;Relay function
+M44027$3;Relay function
+E44027$3_0; Disabled
+E44027$3_1; Enabled
+G2_9_29;Failure motor circuit breaker pump 1
+M44028$0_1;Status
+E44028$0_1_00; Information
+E44028$0_1_01; Warning
+E44028$0_1_10; Alarm
+G2_9_29_1;Reset
+M44028$2;Reset
+E44028$2_0; Manual reset
+E44028$2_1; Auto reset
+G2_9_29_2;Relay function
+M44028$3;Relay function
+E44028$3_0; Disabled
+E44028$3_1; Enabled
+G2_9_30;Failure motor circuit breaker pump 2
+M44029$0_1;Status
+E44029$0_1_00; Information
+E44029$0_1_01; Warning
+E44029$0_1_10; Alarm
+G2_9_30_1;Reset
+M44029$2;Reset
+E44029$2_0; Manual reset
+E44029$2_1; Auto reset
+G2_9_30_2;Relay function
+M44029$3;Relay function
+E44029$3_0; Disabled
+E44029$3_1; Enabled
+G2_9_31;Failure motor circuit breaker pump 3
+M44030$0_1;Status
+E44030$0_1_00; Information
+E44030$0_1_01; Warning
+E44030$0_1_10; Alarm
+G2_9_31_1;Reset
+M44030$2;Reset
+E44030$2_0; Manual reset
+E44030$2_1; Auto reset
+G2_9_31_2;Relay function
+M44030$3;Relay function
+E44030$3_0; Disabled
+E44030$3_1; Enabled
+G2_9_32;Failure motor circuit breaker pump 4
+M44031$0_1;Status
+E44031$0_1_00; Information
+E44031$0_1_01; Warning
+E44031$0_1_10; Alarm
+G2_9_32_1;Reset
+M44031$2;Reset
+E44031$2_0; Manual reset
+E44031$2_1; Auto reset
+G2_9_32_2;Relay function
+M44031$3;Relay function
+E44031$3_0; Disabled
+E44031$3_1; Enabled
+G2_9_33;Failure motor circuit breaker pump 5
+M44032$0_1;Status
+E44032$0_1_00; Information
+E44032$0_1_01; Warning
+E44032$0_1_10; Alarm
+G2_9_33_1;Reset
+M44032$2;Reset
+E44032$2_0; Manual reset
+E44032$2_1; Auto reset
+G2_9_33_2;Relay function
+M44032$3;Relay function
+E44032$3_0; Disabled
+E44032$3_1; Enabled
+G2_9_34;Failure motor circuit breaker pump 6
+M44033$0_1;Status
+E44033$0_1_00; Information
+E44033$0_1_01; Warning
+E44033$0_1_10; Alarm
+G2_9_34_1;Reset
+M44033$2;Reset
+E44033$2_0; Manual reset
+E44033$2_1; Auto reset
+G2_9_34_2;Relay function
+M44033$3;Relay function
+E44033$3_0; Disabled
+E44033$3_1; Enabled
+G2_9_35;Failure motor circuit breaker frequency converter pump 1
+M44034$0_1;Status
+E44034$0_1_00; Information
+E44034$0_1_01; Warning
+E44034$0_1_10; Alarm
+G2_9_35_1;Reset
+M44034$2;Reset
+E44034$2_0; Manual reset
+E44034$2_1; Auto reset
+G2_9_35_2;Relay function
+M44034$3;Relay function
+E44034$3_0; Disabled
+E44034$3_1; Enabled
+G2_9_36;Failure motor circuit breaker frequency converter pump 2
+M44035$0_1;Status
+E44035$0_1_00; Information
+E44035$0_1_01; Warning
+E44035$0_1_10; Alarm
+G2_9_36_1;Reset
+M44035$2;Reset
+E44035$2_0; Manual reset
+E44035$2_1; Auto reset
+G2_9_36_2;Relay function
+M44035$3;Relay function
+E44035$3_0; Disabled
+E44035$3_1; Enabled
+G2_9_37;Failure motor circuit breaker frequency converter pump 3
+M44036$0_1;Status
+E44036$0_1_00; Information
+E44036$0_1_01; Warning
+E44036$0_1_10; Alarm
+G2_9_37_1;Reset
+M44036$2;Reset
+E44036$2_0; Manual reset
+E44036$2_1; Auto reset
+G2_9_37_2;Relay function
+M44036$3;Relay function
+E44036$3_0; Disabled
+E44036$3_1; Enabled
+G2_9_38;Failure motor circuit breaker frequency converter pump 4
+M44037$0_1;Status
+E44037$0_1_00; Information
+E44037$0_1_01; Warning
+E44037$0_1_10; Alarm
+G2_9_38_1;Reset
+M44037$2;Reset
+E44037$2_0; Manual reset
+E44037$2_1; Auto reset
+G2_9_38_2;Relay function
+M44037$3;Relay function
+E44037$3_0; Disabled
+E44037$3_1; Enabled
+G2_9_39;Failure motor circuit breaker frequency converter pump 5
+M44038$0_1;Status
+E44038$0_1_00; Information
+E44038$0_1_01; Warning
+E44038$0_1_10; Alarm
+G2_9_39_1;Reset
+M44038$2;Reset
+E44038$2_0; Manual reset
+E44038$2_1; Auto reset
+G2_9_39_2;Relay function
+M44038$3;Relay function
+E44038$3_0; Disabled
+E44038$3_1; Enabled
+G2_9_40;Failure motor circuit breaker frequency converter pump 6
+M44039$0_1;Status
+E44039$0_1_00; Information
+E44039$0_1_01; Warning
+E44039$0_1_10; Alarm
+G2_9_40_1;Reset
+M44039$2;Reset
+E44039$2_0; Manual reset
+E44039$2_1; Auto reset
+G2_9_40_2;Relay function
+M44039$3;Relay function
+E44039$3_0; Disabled
+E44039$3_1; Enabled
+G2_9_41;Failure several pumps
+M999120$0_1;Status
+E999120$0_1_00; Information
+E999120$0_1_01; Warning
+E999120$0_1_10; Alarm
+G2_9_41_1;Reset
+M999120$2;Reset
+E999120$2_0; Manual reset
+E999120$2_1; Auto reset
+G2_9_41_2;Relay function
+M999120$3;Relay function
+E999120$3_0; Disabled
+E999120$3_1; Enabled
+G2_9_42;Manual On pump 1
+M44132$0_1;Status
+E44132$0_1_00; Information
+E44132$0_1_01; Warning
+E44132$0_1_10; Alarm
+G2_9_42_1;Reset
+M44132$2;Reset
+E44132$2_0; Manual reset
+E44132$2_1; Auto reset
+G2_9_42_2;Relay function
+M44132$3;Relay function
+E44132$3_0; Disabled
+E44132$3_1; Enabled
+G2_9_43;Manual On pump 2
+M44133$0_1;Status
+E44133$0_1_00; Information
+E44133$0_1_01; Warning
+E44133$0_1_10; Alarm
+G2_9_43_1;Reset
+M44133$2;Reset
+E44133$2_0; Manual reset
+E44133$2_1; Auto reset
+G2_9_43_2;Relay function
+M44133$3;Relay function
+E44133$3_0; Disabled
+E44133$3_1; Enabled
+G2_9_44;Manual On pump 3
+M44134$0_1;Status
+E44134$0_1_00; Information
+E44134$0_1_01; Warning
+E44134$0_1_10; Alarm
+G2_9_44_1;Reset
+M44134$2;Reset
+E44134$2_0; Manual reset
+E44134$2_1; Auto reset
+G2_9_44_2;Relay function
+M44134$3;Relay function
+E44134$3_0; Disabled
+E44134$3_1; Enabled
+G2_9_45;Manual On pump 4
+M44135$0_1;Status
+E44135$0_1_00; Information
+E44135$0_1_01; Warning
+E44135$0_1_10; Alarm
+G2_9_45_1;Reset
+M44135$2;Reset
+E44135$2_0; Manual reset
+E44135$2_1; Auto reset
+G2_9_45_2;Relay function
+M44135$3;Relay function
+E44135$3_0; Disabled
+E44135$3_1; Enabled
+G2_9_46;Manual On pump 5
+M44136$0_1;Status
+E44136$0_1_00; Information
+E44136$0_1_01; Warning
+E44136$0_1_10; Alarm
+G2_9_46_1;Reset
+M44136$2;Reset
+E44136$2_0; Manual reset
+E44136$2_1; Auto reset
+G2_9_46_2;Relay function
+M44136$3;Relay function
+E44136$3_0; Disabled
+E44136$3_1; Enabled
+G2_9_47;Manual On pump 6
+M44137$0_1;Status
+E44137$0_1_00; Information
+E44137$0_1_01; Warning
+E44137$0_1_10; Alarm
+G2_9_47_1;Reset
+M44137$2;Reset
+E44137$2_0; Manual reset
+E44137$2_1; Auto reset
+G2_9_47_2;Relay function
+M44137$3;Relay function
+E44137$3_0; Disabled
+E44137$3_1; Enabled
+G2_9_48;Manual Off pump 1
+M44138$0_1;Status
+E44138$0_1_00; Information
+E44138$0_1_01; Warning
+E44138$0_1_10; Alarm
+G2_9_48_1;Reset
+M44138$2;Reset
+E44138$2_0; Manual reset
+E44138$2_1; Auto reset
+G2_9_48_2;Relay function
+M44138$3;Relay function
+E44138$3_0; Disabled
+E44138$3_1; Enabled
+G2_9_49;Manual Off pump 2
+M44139$0_1;Status
+E44139$0_1_00; Information
+E44139$0_1_01; Warning
+E44139$0_1_10; Alarm
+G2_9_49_1;Reset
+M44139$2;Reset
+E44139$2_0; Manual reset
+E44139$2_1; Auto reset
+G2_9_49_2;Relay function
+M44139$3;Relay function
+E44139$3_0; Disabled
+E44139$3_1; Enabled
+G2_9_50;Manual Off pump 3
+M44140$0_1;Status
+E44140$0_1_00; Information
+E44140$0_1_01; Warning
+E44140$0_1_10; Alarm
+G2_9_50_1;Reset
+M44140$2;Reset
+E44140$2_0; Manual reset
+E44140$2_1; Auto reset
+G2_9_50_2;Relay function
+M44140$3;Relay function
+E44140$3_0; Disabled
+E44140$3_1; Enabled
+G2_9_51;Manual Off pump 4
+M44141$0_1;Status
+E44141$0_1_00; Information
+E44141$0_1_01; Warning
+E44141$0_1_10; Alarm
+G2_9_51_1;Reset
+M44141$2;Reset
+E44141$2_0; Manual reset
+E44141$2_1; Auto reset
+G2_9_51_2;Relay function
+M44141$3;Relay function
+E44141$3_0; Disabled
+E44141$3_1; Enabled
+G2_9_52;Manual Off pump 5
+M44142$0_1;Status
+E44142$0_1_00; Information
+E44142$0_1_01; Warning
+E44142$0_1_10; Alarm
+G2_9_52_1;Reset
+M44142$2;Reset
+E44142$2_0; Manual reset
+E44142$2_1; Auto reset
+G2_9_52_2;Relay function
+M44142$3;Relay function
+E44142$3_0; Disabled
+E44142$3_1; Enabled
+G2_9_53;Manual Off pump 6
+M44143$0_1;Status
+E44143$0_1_00; Information
+E44143$0_1_01; Warning
+E44143$0_1_10; Alarm
+G2_9_53_1;Reset
+M44143$2;Reset
+E44143$2_0; Manual reset
+E44143$2_1; Auto reset
+G2_9_53_2;Relay function
+M44143$3;Relay function
+E44143$3_0; Disabled
+E44143$3_1; Enabled
+G2_9_54;Several pumps Off
+M999121$0_1;Status
+E999121$0_1_00; Information
+E999121$0_1_01; Warning
+E999121$0_1_10; Alarm
+G2_9_54_1;Reset
+M999121$2;Reset
+E999121$2_0; Manual reset
+E999121$2_1; Auto reset
+G2_9_54_2;Relay function
+M999122$3;Relay function
+E999122$3_0; Disabled
+E999122$3_1; Enabled
+G2_9_55;Failure frequency converter pump 1
+M44044$0_1;Status
+E44044$0_1_00; Information
+E44044$0_1_01; Warning
+E44044$0_1_10; Alarm
+G2_9_55_1;Reset
+M44044$2;Reset
+E44044$2_0; Manual reset
+E44044$2_1; Auto reset
+G2_9_55_2;Relay function
+M44044$3;Relay function
+E44044$3_0; Disabled
+E44044$3_1; Enabled
+G2_9_56;Failure frequency converter pump 2
+M44045$0_1;Status
+E44045$0_1_00; Information
+E44045$0_1_01; Warning
+E44045$0_1_10; Alarm
+G2_9_56_1;Reset
+M44045$2;Reset
+E44045$2_0; Manual reset
+E44045$2_1; Auto reset
+G2_9_56_2;Relay function
+M44045$3;Relay function
+E44045$3_0; Disabled
+E44045$3_1; Enabled
+G2_9_57;Failure frequency converter pump 3
+M44046$0_1;Status
+E44046$0_1_00; Information
+E44046$0_1_01; Warning
+E44046$0_1_10; Alarm
+G2_9_57_1;Reset
+M44046$2;Reset
+E44046$2_0; Manual reset
+E44046$2_1; Auto reset
+G2_9_57_2;Relay function
+M44046$3;Relay function
+E44046$3_0; Disabled
+E44046$3_1; Enabled
+G2_9_58;Failure frequency converter pump 4
+M44047$0_1;Status
+E44047$0_1_00; Information
+E44047$0_1_01; Warning
+E44047$0_1_10; Alarm
+G2_9_58_1;Reset
+M44047$2;Reset
+E44047$2_0; Manual reset
+E44047$2_1; Auto reset
+G2_9_58_2;Relay function
+M44047$3;Relay function
+E44047$3_0; Disabled
+E44047$3_1; Enabled
+G2_9_59;Failure frequency converter pump 5
+M44048$0_1;Status
+E44048$0_1_00; Information
+E44048$0_1_01; Warning
+E44048$0_1_10; Alarm
+G2_9_59_1;Reset
+M44048$2;Reset
+E44048$2_0; Manual reset
+E44048$2_1; Auto reset
+G2_9_59_2;Relay function
+M44048$3;Relay function
+E44048$3_0; Disabled
+E44048$3_1; Enabled
+G2_9_60;Failure frequency converter pump 6
+M44049$0_1;Status
+E44049$0_1_00; Information
+E44049$0_1_01; Warning
+E44049$0_1_10; Alarm
+G2_9_60_1;Reset
+M44049$2;Reset
+E44049$2_0; Manual reset
+E44049$2_1; Auto reset
+G2_9_60_2;Relay function
+M44049$3;Relay function
+E44049$3_0; Disabled
+E44049$3_1; Enabled
+G2_9_61;Failure several frequency converters
+M999122$0_1;Status
+E999122$0_1_00; Information
+E999122$0_1_01; Warning
+E999122$0_1_10; Alarm
+G2_9_61_1;Reset
+M999122$2;Reset
+E999122$2_0; Manual reset
+E999122$2_1; Auto reset
+G2_9_61_2;Relay function
+M999122$3;Relay function
+E999122$3_0; Disabled
+E999122$3_1; Enabled
+G2_9_62;Communication error frequency converter pump 1
+M44051$0_1;Status
+E44051$0_1_00; Information
+E44051$0_1_01; Warning
+E44051$0_1_10; Alarm
+G2_9_62_1;Reset
+M44051$2;Reset
+E44051$2_0; Manual reset
+E44051$2_1; Auto reset
+G2_9_62_2;Relay function
+M44051$3;Relay function
+E44051$3_0; Disabled
+E44051$3_1; Enabled
+G2_9_63;Communication error frequency converter pump 2
+M44052$0_1;Status
+E44052$0_1_00; Information
+E44052$0_1_01; Warning
+E44052$0_1_10; Alarm
+G2_9_63_1;Reset
+M44052$2;Reset
+E44052$2_0; Manual reset
+E44052$2_1; Auto reset
+G2_9_63_2;Relay function
+M44052$3;Relay function
+E44052$3_0; Disabled
+E44052$3_1; Enabled
+G2_9_64;Communication error frequency converter pump 3
+M44053$0_1;Status
+E44053$0_1_00; Information
+E44053$0_1_01; Warning
+E44053$0_1_10; Alarm
+G2_9_64_1;Reset
+M44053$2;Reset
+E44053$2_0; Manual reset
+E44053$2_1; Auto reset
+G2_9_64_2;Relay function
+M44053$3;Relay function
+E44053$3_0; Disabled
+E44053$3_1; Enabled
+G2_9_65;Communication error frequency converter pump 4
+M44054$0_1;Status
+E44054$0_1_00; Information
+E44054$0_1_01; Warning
+E44054$0_1_10; Alarm
+G2_9_65_1;Reset
+M44054$2;Reset
+E44054$2_0; Manual reset
+E44054$2_1; Auto reset
+G2_9_65_2;Relay function
+M44054$3;Relay function
+E44054$3_0; Disabled
+E44054$3_1; Enabled
+G2_9_66;Communication error frequency converter pump 5
+M44055$0_1;Status
+E44055$0_1_00; Information
+E44055$0_1_01; Warning
+E44055$0_1_10; Alarm
+G2_9_66_1;Reset
+M44055$2;Reset
+E44055$2_0; Manual reset
+E44055$2_1; Auto reset
+G2_9_66_2;Relay function
+M44055$3;Relay function
+E44055$3_0; Disabled
+E44055$3_1; Enabled
+G2_9_67;Communication error frequency converter pump 6
+M44056$0_1;Status
+E44056$0_1_00; Information
+E44056$0_1_01; Warning
+E44056$0_1_10; Alarm
+G2_9_67_1;Reset
+M44056$2;Reset
+E44056$2_0; Manual reset
+E44056$2_1; Auto reset
+G2_9_67_2;Relay function
+M44056$3;Relay function
+E44056$3_0; Disabled
+E44056$3_1; Enabled
+G2_9_68;Incorrect check sum frequency converter pump 1
+M44057$0_1;Status
+E44057$0_1_00; Information
+E44057$0_1_01; Warning
+E44057$0_1_10; Alarm
+G2_9_68_1;Reset
+M44057$2;Reset
+E44057$2_0; Manual reset
+E44057$2_1; Auto reset
+G2_9_68_2;Relay function
+M44057$3;Relay function
+E44057$3_0; Disabled
+E44057$3_1; Enabled
+G2_9_69;Incorrect check sum frequency converter pump 2
+M44058$0_1;Status
+E44058$0_1_00; Information
+E44058$0_1_01; Warning
+E44058$0_1_10; Alarm
+G2_9_69_1;Reset
+M44058$2;Reset
+E44058$2_0; Manual reset
+E44058$2_1; Auto reset
+G2_9_69_2;Relay function
+M44058$3;Relay function
+E44058$3_0; Disabled
+E44058$3_1; Enabled
+G2_9_70;Incorrect check sum frequency converter pump 3
+M44059$0_1;Status
+E44059$0_1_00; Information
+E44059$0_1_01; Warning
+E44059$0_1_10; Alarm
+G2_9_70_1;Reset
+M44059$2;Reset
+E44059$2_0; Manual reset
+E44059$2_1; Auto reset
+G2_9_70_2;Relay function
+M44059$3;Relay function
+E44059$3_0; Disabled
+E44059$3_1; Enabled
+G2_9_71;Incorrect check sum frequency converter pump 4
+M44060$0_1;Status
+E44060$0_1_00; Information
+E44060$0_1_01; Warning
+E44060$0_1_10; Alarm
+G2_9_71_1;Reset
+M44060$2;Reset
+E44060$2_0; Manual reset
+E44060$2_1; Auto reset
+G2_9_71_2;Relay function
+M44060$3;Relay function
+E44060$3_0; Disabled
+E44060$3_1; Enabled
+G2_9_72;Incorrect check sum frequency converter pump 5
+M44061$0_1;Status
+E44061$0_1_00; Information
+E44061$0_1_01; Warning
+E44061$0_1_10; Alarm
+G2_9_72_1;Reset
+M44061$2;Reset
+E44061$2_0; Manual reset
+E44061$2_1; Auto reset
+G2_9_72_2;Relay function
+M44061$3;Relay function
+E44061$3_0; Disabled
+E44061$3_1; Enabled
+G2_9_73;Incorrect check sum frequency converter pump 6
+M44062$0_1;Status
+E44062$0_1_00; Information
+E44062$0_1_01; Warning
+E44062$0_1_10; Alarm
+G2_9_73_1;Reset
+M44062$2;Reset
+E44062$2_0; Manual reset
+E44062$2_1; Auto reset
+G2_9_73_2;Relay function
+M44062$3;Relay function
+E44062$3_0; Disabled
+E44062$3_1; Enabled
+G2_9_74;Internal failure frequency converter pump 1
+M44063$0_1;Status
+E44063$0_1_00; Information
+E44063$0_1_01; Warning
+E44063$0_1_10; Alarm
+G2_9_74_1;Reset
+M44063$2;Reset
+E44063$2_0; Manual reset
+E44063$2_1; Auto reset
+G2_9_74_2;Relay function
+M44063$3;Relay function
+E44063$3_0; Disabled
+E44063$3_1; Enabled
+G2_9_75;Internal failure frequency converter pump 2
+M44064$0_1;Status
+E44064$0_1_00; Information
+E44064$0_1_01; Warning
+E44064$0_1_10; Alarm
+G2_9_75_1;Reset
+M44064$2;Reset
+E44064$2_0; Manual reset
+E44064$2_1; Auto reset
+G2_9_75_2;Relay function
+M44064$3;Relay function
+E44064$3_0; Disabled
+E44064$3_1; Enabled
+G2_9_76;Internal failure frequency converter pump 3
+M44065$0_1;Status
+E44065$0_1_00; Information
+E44065$0_1_01; Warning
+E44065$0_1_10; Alarm
+G2_9_76_1;Reset
+M44065$2;Reset
+E44065$2_0; Manual reset
+E44065$2_1; Auto reset
+G2_9_76_2;Relay function
+M44065$3;Relay function
+E44065$3_0; Disabled
+E44065$3_1; Enabled
+G2_9_77;Internal failure frequency converter pump 4
+M44066$0_1;Status
+E44066$0_1_00; Information
+E44066$0_1_01; Warning
+E44066$0_1_10; Alarm
+G2_9_77_1;Reset
+M44066$2;Reset
+E44066$2_0; Manual reset
+E44066$2_1; Auto reset
+G2_9_77_2;Relay function
+M44066$3;Relay function
+E44066$3_0; Disabled
+E44066$3_1; Enabled
+G2_9_78;Internal failure frequency converter pump 5
+M44067$0_1;Status
+E44067$0_1_00; Information
+E44067$0_1_01; Warning
+E44067$0_1_10; Alarm
+G2_9_78_1;Reset
+M44067$2;Reset
+E44067$2_0; Manual reset
+E44067$2_1; Auto reset
+G2_9_78_2;Relay function
+M44067$3;Relay function
+E44067$3_0; Disabled
+E44067$3_1; Enabled
+G2_9_79;Internal failure frequency converter pump 6
+M44068$0_1;Status
+E44068$0_1_00; Information
+E44068$0_1_01; Warning
+E44068$0_1_10; Alarm
+G2_9_79_1;Reset
+M44068$2;Reset
+E44068$2_0; Manual reset
+E44068$2_1; Auto reset
+G2_9_79_2;Relay function
+M44068$3;Relay function
+E44068$3_0; Disabled
+E44068$3_1; Enabled
+G2_9_80;Mains failure frequency converter pump 1
+M44069$0_1;Status
+E44069$0_1_00; Information
+E44069$0_1_01; Warning
+E44069$0_1_10; Alarm
+G2_9_80_1;Reset
+M44069$2;Reset
+E44069$2_0; Manual reset
+E44069$2_1; Auto reset
+G2_9_80_2;Relay function
+M44069$3;Relay function
+E44069$3_0; Disabled
+E44069$3_1; Enabled
+G2_9_81;Mains failure frequency converter pump 2
+M44070$0_1;Status
+E44070$0_1_00; Information
+E44070$0_1_01; Warning
+E44070$0_1_10; Alarm
+G2_9_81_1;Reset
+M44070$2;Reset
+E44070$2_0; Manual reset
+E44070$2_1; Auto reset
+G2_9_81_2;Relay function
+M44070$3;Relay function
+E44070$3_0; Disabled
+E44070$3_1; Enabled
+G2_9_82;Mains failure frequency converter pump 3
+M44071$0_1;Status
+E44071$0_1_00; Information
+E44071$0_1_01; Warning
+E44071$0_1_10; Alarm
+G2_9_82_1;Reset
+M44071$2;Reset
+E44071$2_0; Manual reset
+E44071$2_1; Auto reset
+G2_9_82_2;Relay function
+M44071$3;Relay function
+E44071$3_0; Disabled
+E44071$3_1; Enabled
+G2_9_83;Mains failure frequency converter pump 4
+M44072$0_1;Status
+E44072$0_1_00; Information
+E44072$0_1_01; Warning
+E44072$0_1_10; Alarm
+G2_9_83_1;Reset
+M44072$2;Reset
+E44072$2_0; Manual reset
+E44072$2_1; Auto reset
+G2_9_83_2;Relay function
+M44072$3;Relay function
+E44072$3_0; Disabled
+E44072$3_1; Enabled
+G2_9_84;Mains failure frequency converter pump 5
+M44073$0_1;Status
+E44073$0_1_00; Information
+E44073$0_1_01; Warning
+E44073$0_1_10; Alarm
+G2_9_84_1;Reset
+M44073$2;Reset
+E44073$2_0; Manual reset
+E44073$2_1; Auto reset
+G2_9_84_2;Relay function
+M44073$3;Relay function
+E44073$3_0; Disabled
+E44073$3_1; Enabled
+G2_9_85;Mains failure frequency converter pump 6
+M44074$0_1;Status
+E44074$0_1_00; Information
+E44074$0_1_01; Warning
+E44074$0_1_10; Alarm
+G2_9_85_1;Reset
+M44074$2;Reset
+E44074$2_0; Manual reset
+E44074$2_1; Auto reset
+G2_9_85_2;Relay function
+M44074$3;Relay function
+E44074$3_0; Disabled
+E44074$3_1; Enabled
+G2_9_86;Phase failure frequency converter pump 1
+M44075$0_1;Status
+E44075$0_1_00; Information
+E44075$0_1_01; Warning
+E44075$0_1_10; Alarm
+G2_9_86_1;Reset
+M44075$2;Reset
+E44075$2_0; Manual reset
+E44075$2_1; Auto reset
+G2_9_86_2;Relay function
+M44075$3;Relay function
+E44075$3_0; Disabled
+E44075$3_1; Enabled
+G2_9_87;Phase failure frequency converter pump 2
+M44076$0_1;Status
+E44076$0_1_00; Information
+E44076$0_1_01; Warning
+E44076$0_1_10; Alarm
+G2_9_87_1;Reset
+M44076$2;Reset
+E44076$2_0; Manual reset
+E44076$2_1; Auto reset
+G2_9_87_2;Relay function
+M44076$3;Relay function
+E44076$3_0; Disabled
+E44076$3_1; Enabled
+G2_9_88;Phase failure frequency converter pump 3
+M44077$0_1;Status
+E44077$0_1_00; Information
+E44077$0_1_01; Warning
+E44077$0_1_10; Alarm
+G2_9_88_1;Reset
+M44077$2;Reset
+E44077$2_0; Manual reset
+E44077$2_1; Auto reset
+G2_9_88_2;Relay function
+M44077$3;Relay function
+E44077$3_0; Disabled
+E44077$3_1; Enabled
+G2_9_89;Phase failure frequency converter pump 4
+M44078$0_1;Status
+E44078$0_1_00; Information
+E44078$0_1_01; Warning
+E44078$0_1_10; Alarm
+G2_9_89_1;Reset
+M44078$2;Reset
+E44078$2_0; Manual reset
+E44078$2_1; Auto reset
+G2_9_89_2;Relay function
+M44078$3;Relay function
+E44078$3_0; Disabled
+E44078$3_1; Enabled
+G2_9_90;Phase failure frequency converter pump 5
+M44079$0_1;Status
+E44079$0_1_00; Information
+E44079$0_1_01; Warning
+E44079$0_1_10; Alarm
+G2_9_90_1;Reset
+M44079$2;Reset
+E44079$2_0; Manual reset
+E44079$2_1; Auto reset
+G2_9_90_2;Relay function
+M44079$3;Relay function
+E44079$3_0; Disabled
+E44079$3_1; Enabled
+G2_9_91;Phase failure frequency converter pump 6
+M44080$0_1;Status
+E44080$0_1_00; Information
+E44080$0_1_01; Warning
+E44080$0_1_10; Alarm
+G2_9_91_1;Reset
+M44080$2;Reset
+E44080$2_0; Manual reset
+E44080$2_1; Auto reset
+G2_9_91_2;Relay function
+M44080$3;Relay function
+E44080$3_0; Disabled
+E44080$3_1; Enabled
+G2_9_92;Overvoltage frequency converter pump 1
+M44081$0_1;Status
+E44081$0_1_00; Information
+E44081$0_1_01; Warning
+E44081$0_1_10; Alarm
+G2_9_92_1;Reset
+M44081$2;Reset
+E44081$2_0; Manual reset
+E44081$2_1; Auto reset
+G2_9_92_2;Relay function
+M44081$3;Relay function
+E44081$3_0; Disabled
+E44081$3_1; Enabled
+G2_9_93;Overvoltage frequency converter pump 2
+M44082$0_1;Status
+E44082$0_1_00; Information
+E44082$0_1_01; Warning
+E44082$0_1_10; Alarm
+G2_9_93_1;Reset
+M44082$2;Reset
+E44082$2_0; Manual reset
+E44082$2_1; Auto reset
+G2_9_93_2;Relay function
+M44082$3;Relay function
+E44082$3_0; Disabled
+E44082$3_1; Enabled
+G2_9_94;Overvoltage frequency converter pump 3
+M44083$0_1;Status
+E44083$0_1_00; Information
+E44083$0_1_01; Warning
+E44083$0_1_10; Alarm
+G2_9_94_1;Reset
+M44083$2;Reset
+E44083$2_0; Manual reset
+E44083$2_1; Auto reset
+G2_9_94_2;Relay function
+M44083$3;Relay function
+E44083$3_0; Disabled
+E44083$3_1; Enabled
+G2_9_95;Overvoltage frequency converter pump 4
+M44084$0_1;Status
+E44084$0_1_00; Information
+E44084$0_1_01; Warning
+E44084$0_1_10; Alarm
+G2_9_95_1;Reset
+M44084$2;Reset
+E44084$2_0; Manual reset
+E44084$2_1; Auto reset
+G2_9_95_2;Relay function
+M44084$3;Relay function
+E44084$3_0; Disabled
+E44084$3_1; Enabled
+G2_9_96;Overvoltage frequency converter pump 5
+M44085$0_1;Status
+E44085$0_1_00; Information
+E44085$0_1_01; Warning
+E44085$0_1_10; Alarm
+G2_9_96_1;Reset
+M44085$2;Reset
+E44085$2_0; Manual reset
+E44085$2_1; Auto reset
+G2_9_96_2;Relay function
+M44085$3;Relay function
+E44085$3_0; Disabled
+E44085$3_1; Enabled
+G2_9_97;Overvoltage frequency converter pump 6
+M44086$0_1;Status
+E44086$0_1_00; Information
+E44086$0_1_01; Warning
+E44086$0_1_10; Alarm
+G2_9_97_1;Reset
+M44086$2;Reset
+E44086$2_0; Manual reset
+E44086$2_1; Auto reset
+G2_9_97_2;Relay function
+M44086$3;Relay function
+E44086$3_0; Disabled
+E44086$3_1; Enabled
+G2_9_98;Undervoltage frequency converter pump 1
+M44087$0_1;Status
+E44087$0_1_00; Information
+E44087$0_1_01; Warning
+E44087$0_1_10; Alarm
+G2_9_98_1;Reset
+M44087$2;Reset
+E44087$2_0; Manual reset
+E44087$2_1; Auto reset
+G2_9_98_2;Relay function
+M44087$3;Relay function
+E44087$3_0; Disabled
+E44087$3_1; Enabled
+G2_9_99;Undervoltage frequency converter pump 2
+M44088$0_1;Status
+E44088$0_1_00; Information
+E44088$0_1_01; Warning
+E44088$0_1_10; Alarm
+G2_9_99_1;Reset
+M44088$2;Reset
+E44088$2_0; Manual reset
+E44088$2_1; Auto reset
+G2_9_99_2;Relay function
+M44088$3;Relay function
+E44088$3_0; Disabled
+E44088$3_1; Enabled
+G2_9_100;Undervoltage frequency converter pump 3
+M44089$0_1;Status
+E44089$0_1_00; Information
+E44089$0_1_01; Warning
+E44089$0_1_10; Alarm
+G2_9_100_1;Reset
+M44089$2;Reset
+E44089$2_0; Manual reset
+E44089$2_1; Auto reset
+G2_9_100_2;Relay function
+M44089$3;Relay function
+E44089$3_0; Disabled
+E44089$3_1; Enabled
+G2_9_101;Undervoltage frequency converter pump 4
+M44090$0_1;Status
+E44090$0_1_00; Information
+E44090$0_1_01; Warning
+E44090$0_1_10; Alarm
+G2_9_101_1;Reset
+M44090$2;Reset
+E44090$2_0; Manual reset
+E44090$2_1; Auto reset
+G2_9_101_2;Relay function
+M44090$3;Relay function
+E44090$3_0; Disabled
+E44090$3_1; Enabled
+G2_9_102;Undervoltage frequency converter pump 5
+M44091$0_1;Status
+E44091$0_1_00; Information
+E44091$0_1_01; Warning
+E44091$0_1_10; Alarm
+G2_9_102_1;Reset
+M44091$2;Reset
+E44091$2_0; Manual reset
+E44091$2_1; Auto reset
+G2_9_102_2;Relay function
+M44091$3;Relay function
+E44091$3_0; Disabled
+E44091$3_1; Enabled
+G2_9_103;Undervoltage frequency converter pump 6
+M44092$0_1;Status
+E44092$0_1_00; Information
+E44092$0_1_01; Warning
+E44092$0_1_10; Alarm
+G2_9_103_1;Reset
+M44092$2;Reset
+E44092$2_0; Manual reset
+E44092$2_1; Auto reset
+G2_9_103_2;Relay function
+M44092$3;Relay function
+E44092$3_0; Disabled
+E44092$3_1; Enabled
+G2_9_104;Overload frequency converter pump 1
+M44093$0_1;Status
+E44093$0_1_00; Information
+E44093$0_1_01; Warning
+E44093$0_1_10; Alarm
+G2_9_104_1;Reset
+M44093$2;Reset
+E44093$2_0; Manual reset
+E44093$2_1; Auto reset
+G2_9_104_2;Relay function
+M44093$3;Relay function
+E44093$3_0; Disabled
+E44093$3_1; Enabled
+G2_9_105;Overload frequency converter pump 2
+M44094$0_1;Status
+E44094$0_1_00; Information
+E44094$0_1_01; Warning
+E44094$0_1_10; Alarm
+G2_9_105_1;Reset
+M44094$2;Reset
+E44094$2_0; Manual reset
+E44094$2_1; Auto reset
+G2_9_105_2;Relay function
+M44094$3;Relay function
+E44094$3_0; Disabled
+E44094$3_1; Enabled
+G2_9_106;Overload frequency converter pump 3
+M44095$0_1;Status
+E44095$0_1_00; Information
+E44095$0_1_01; Warning
+E44095$0_1_10; Alarm
+G2_9_106_1;Reset
+M44095$2;Reset
+E44095$2_0; Manual reset
+E44095$2_1; Auto reset
+G2_9_106_2;Relay function
+M44095$3;Relay function
+E44095$3_0; Disabled
+E44095$3_1; Enabled
+G2_9_107;Overload frequency converter pump 4
+M44096$0_1;Status
+E44096$0_1_00; Information
+E44096$0_1_01; Warning
+E44096$0_1_10; Alarm
+G2_9_107_1;Reset
+M44096$2;Reset
+E44096$2_0; Manual reset
+E44096$2_1; Auto reset
+G2_9_107_2;Relay function
+M44096$3;Relay function
+E44096$3_0; Disabled
+E44096$3_1; Enabled
+G2_9_108;Overload frequency converter pump 5
+M44097$0_1;Status
+E44097$0_1_00; Information
+E44097$0_1_01; Warning
+E44097$0_1_10; Alarm
+G2_9_108_1;Reset
+M44097$2;Reset
+E44097$2_0; Manual reset
+E44097$2_1; Auto reset
+G2_9_108_2;Relay function
+M44097$3;Relay function
+E44097$3_0; Disabled
+E44097$3_1; Enabled
+G2_9_109;Overload frequency converter pump 6
+M44098$0_1;Status
+E44098$0_1_00; Information
+E44098$0_1_01; Warning
+E44098$0_1_10; Alarm
+G2_9_109_1;Reset
+M44098$2;Reset
+E44098$2_0; Manual reset
+E44098$2_1; Auto reset
+G2_9_109_2;Relay function
+M44098$3;Relay function
+E44098$3_0; Disabled
+E44098$3_1; Enabled
+G2_9_110;Brake resistor frequency converter pump 1
+M44099$0_1;Status
+E44099$0_1_00; Information
+E44099$0_1_01; Warning
+E44099$0_1_10; Alarm
+G2_9_110_1;Reset
+M44099$2;Reset
+E44099$2_0; Manual reset
+E44099$2_1; Auto reset
+G2_9_110_2;Relay function
+M44099$3;Relay function
+E44099$3_0; Disabled
+E44099$3_1; Enabled
+G2_9_111;Brake resistor frequency converter pump 2
+M44100$0_1;Status
+E44100$0_1_00; Information
+E44100$0_1_01; Warning
+E44100$0_1_10; Alarm
+G2_9_111_1;Reset
+M44100$2;Reset
+E44100$2_0; Manual reset
+E44100$2_1; Auto reset
+G2_9_111_2;Relay function
+M44100$3;Relay function
+E44100$3_0; Disabled
+E44100$3_1; Enabled
+G2_9_112;Brake resistor frequency converter pump 3
+M44101$0_1;Status
+E44101$0_1_00; Information
+E44101$0_1_01; Warning
+E44101$0_1_10; Alarm
+G2_9_112_1;Reset
+M44101$2;Reset
+E44101$2_0; Manual reset
+E44101$2_1; Auto reset
+G2_9_112_2;Relay function
+M44101$3;Relay function
+E44101$3_0; Disabled
+E44101$3_1; Enabled
+G2_9_113;Brake resistor frequency converter pump 4
+M44102$0_1;Status
+E44102$0_1_00; Information
+E44102$0_1_01; Warning
+E44102$0_1_10; Alarm
+G2_9_113_1;Reset
+M44102$2;Reset
+E44102$2_0; Manual reset
+E44102$2_1; Auto reset
+G2_9_113_2;Relay function
+M44102$3;Relay function
+E44102$3_0; Disabled
+E44102$3_1; Enabled
+G2_9_114;Brake resistor frequency converter pump 5
+M44103$0_1;Status
+E44103$0_1_00; Information
+E44103$0_1_01; Warning
+E44103$0_1_10; Alarm
+G2_9_114_1;Reset
+M44103$2;Reset
+E44103$2_0; Manual reset
+E44103$2_1; Auto reset
+G2_9_114_2;Relay function
+M44103$3;Relay function
+E44103$3_0; Disabled
+E44103$3_1; Enabled
+G2_9_115;Brake resistor frequency converter pump 6
+M44104$0_1;Status
+E44104$0_1_00; Information
+E44104$0_1_01; Warning
+E44104$0_1_10; Alarm
+G2_9_115_1;Reset
+M44104$2;Reset
+E44104$2_0; Manual reset
+E44104$2_1; Auto reset
+G2_9_115_2;Relay function
+M44104$3;Relay function
+E44104$3_0; Disabled
+E44104$3_1; Enabled
+G2_9_116;Temperature failure frequency converter pump 1
+M44105$0_1;Status
+E44105$0_1_00; Information
+E44105$0_1_01; Warning
+E44105$0_1_10; Alarm
+G2_9_116_1;Reset
+M44105$2;Reset
+E44105$2_0; Manual reset
+E44105$2_1; Auto reset
+G2_9_116_2;Relay function
+M44105$3;Relay function
+E44105$3_0; Disabled
+E44105$3_1; Enabled
+G2_9_117;Temperature failure frequency converter pump 2
+M44106$0_1;Status
+E44106$0_1_00; Information
+E44106$0_1_01; Warning
+E44106$0_1_10; Alarm
+G2_9_117_1;Reset
+M44106$2;Reset
+E44106$2_0; Manual reset
+E44106$2_1; Auto reset
+G2_9_117_2;Relay function
+M44106$3;Relay function
+E44106$3_0; Disabled
+E44106$3_1; Enabled
+G2_9_118;Temperature failure frequency converter pump 3
+M44107$0_1;Status
+E44107$0_1_00; Information
+E44107$0_1_01; Warning
+E44107$0_1_10; Alarm
+G2_9_118_1;Reset
+M44107$2;Reset
+E44107$2_0; Manual reset
+E44107$2_1; Auto reset
+G2_9_118_2;Relay function
+M44107$3;Relay function
+E44107$3_0; Disabled
+E44107$3_1; Enabled
+G2_9_119;Temperature failure frequency converter pump 4
+M44108$0_1;Status
+E44108$0_1_00; Information
+E44108$0_1_01; Warning
+E44108$0_1_10; Alarm
+G2_9_119_1;Reset
+M44108$2;Reset
+E44108$2_0; Manual reset
+E44108$2_1; Auto reset
+G2_9_119_2;Relay function
+M44108$3;Relay function
+E44108$3_0; Disabled
+E44108$3_1; Enabled
+G2_9_120;Temperature failure frequency converter pump 5
+M44109$0_1;Status
+E44109$0_1_00; Information
+E44109$0_1_01; Warning
+E44109$0_1_10; Alarm
+G2_9_120_1;Reset
+M44109$2;Reset
+E44109$2_0; Manual reset
+E44109$2_1; Auto reset
+G2_9_120_2;Relay function
+M44109$3;Relay function
+E44109$3_0; Disabled
+E44109$3_1; Enabled
+G2_9_121;Temperature failure frequency converter pump 6
+M44110$0_1;Status
+E44110$0_1_00; Information
+E44110$0_1_01; Warning
+E44110$0_1_10; Alarm
+G2_9_121_1;Reset
+M44110$2;Reset
+E44110$2_0; Manual reset
+E44110$2_1; Auto reset
+G2_9_121_2;Relay function
+M44110$3;Relay function
+E44110$3_0; Disabled
+E44110$3_1; Enabled
+G2_9_122;AMA-failure frequency converter pump 1
+M44111$0_1;Status
+E44111$0_1_00; Information
+E44111$0_1_01; Warning
+E44111$0_1_10; Alarm
+G2_9_122_1;Reset
+M44111$2;Reset
+E44111$2_0; Manual reset
+E44111$2_1; Auto reset
+G2_9_122_2;Relay function
+M44111$3;Relay function
+E44111$3_0; Disabled
+E44111$3_1; Enabled
+G2_9_123;AMA-failure frequency converter pump 2
+M44112$0_1;Status
+E44112$0_1_00; Information
+E44112$0_1_01; Warning
+E44112$0_1_10; Alarm
+G2_9_123_1;Reset
+M44112$2;Reset
+E44112$2_0; Manual reset
+E44112$2_1; Auto reset
+G2_9_123_2;Relay function
+M44112$3;Relay function
+E44112$3_0; Disabled
+E44112$3_1; Enabled
+G2_9_124;AMA-failure frequency converter pump 3
+M44113$0_1;Status
+E44113$0_1_00; Information
+E44113$0_1_01; Warning
+E44113$0_1_10; Alarm
+G2_9_124_1;Reset
+M44113$2;Reset
+E44113$2_0; Manual reset
+E44113$2_1; Auto reset
+G2_9_124_2;Relay function
+M44113$3;Relay function
+E44113$3_0; Disabled
+E44113$3_1; Enabled
+G2_9_125;AMA-failure frequency converter pump 4
+M44114$0_1;Status
+E44114$0_1_00; Information
+E44114$0_1_01; Warning
+E44114$0_1_10; Alarm
+G2_9_125_1;Reset
+M44114$2;Reset
+E44114$2_0; Manual reset
+E44114$2_1; Auto reset
+G2_9_125_2;Relay function
+M44114$3;Relay function
+E44114$3_0; Disabled
+E44114$3_1; Enabled
+G2_9_126;AMA-failure frequency converter pump 5
+M44115$0_1;Status
+E44115$0_1_00; Information
+E44115$0_1_01; Warning
+E44115$0_1_10; Alarm
+G2_9_126_1;Reset
+M44115$2;Reset
+E44115$2_0; Manual reset
+E44115$2_1; Auto reset
+G2_9_126_2;Relay function
+M44115$3;Relay function
+E44115$3_0; Disabled
+E44115$3_1; Enabled
+G2_9_127;AMA-failure frequency converter pump 6
+M44116$0_1;Status
+E44116$0_1_00; Information
+E44116$0_1_01; Warning
+E44116$0_1_10; Alarm
+G2_9_127_1;Reset
+M44116$2;Reset
+E44116$2_0; Manual reset
+E44116$2_1; Auto reset
+G2_9_127_2;Relay function
+M44116$3;Relay function
+E44116$3_0; Disabled
+E44116$3_1; Enabled
+G2_9_128;Short circuit frequency converter pump 1
+M44117$0_1;Status
+E44117$0_1_00; Information
+E44117$0_1_01; Warning
+E44117$0_1_10; Alarm
+G2_9_128_1;Reset
+M44117$2;Reset
+E44117$2_0; Manual reset
+E44117$2_1; Auto reset
+G2_9_128_2;Relay function
+M44117$3;Relay function
+E44117$3_0; Disabled
+E44117$3_1; Enabled
+G2_9_129;Short circuit frequency converter pump 2
+M44118$0_1;Status
+E44118$0_1_00; Information
+E44118$0_1_01; Warning
+E44118$0_1_10; Alarm
+G2_9_129_1;Reset
+M44118$2;Reset
+E44118$2_0; Manual reset
+E44118$2_1; Auto reset
+G2_9_129_2;Relay function
+M44118$3;Relay function
+E44118$3_0; Disabled
+E44118$3_1; Enabled
+G2_9_130;Short circuit frequency converter pump 3
+M44119$0_1;Status
+E44119$0_1_00; Information
+E44119$0_1_01; Warning
+E44119$0_1_10; Alarm
+G2_9_130_1;Reset
+M44119$2;Reset
+E44119$2_0; Manual reset
+E44119$2_1; Auto reset
+G2_9_130_2;Relay function
+M44119$3;Relay function
+E44119$3_0; Disabled
+E44119$3_1; Enabled
+G2_9_131;Short circuit frequency converter pump 4
+M44120$0_1;Status
+E44120$0_1_00; Information
+E44120$0_1_01; Warning
+E44120$0_1_10; Alarm
+G2_9_131_1;Reset
+M44120$2;Reset
+E44120$2_0; Manual reset
+E44120$2_1; Auto reset
+G2_9_131_2;Relay function
+M44120$3;Relay function
+E44120$3_0; Disabled
+E44120$3_1; Enabled
+G2_9_132;Short circuit frequency converter pump 5
+M44121$0_1;Status
+E44121$0_1_00; Information
+E44121$0_1_01; Warning
+E44121$0_1_10; Alarm
+G2_9_132_1;Reset
+M44121$2;Reset
+E44121$2_0; Manual reset
+E44121$2_1; Auto reset
+G2_9_132_2;Relay function
+M44121$3;Relay function
+E44121$3_0; Disabled
+E44121$3_1; Enabled
+G2_9_133;Short circuit frequency converter pump 6
+M44122$0_1;Status
+E44122$0_1_00; Information
+E44122$0_1_01; Warning
+E44122$0_1_10; Alarm
+G2_9_133_1;Reset
+M44122$2;Reset
+E44122$2_0; Manual reset
+E44122$2_1; Auto reset
+G2_9_133_2;Relay function
+M44122$3;Relay function
+E44122$3_0; Disabled
+E44122$3_1; Enabled
+G2_9_134;Safety stop frequency converter pump 1
+M44123$0_1;Status
+E44123$0_1_00; Information
+E44123$0_1_01; Warning
+E44123$0_1_10; Alarm
+G2_9_134_1;Reset
+M44123$2;Reset
+E44123$2_0; Manual reset
+E44123$2_1; Auto reset
+G2_9_134_2;Relay function
+M44123$3;Relay function
+E44123$3_0; Disabled
+E44123$3_1; Enabled
+G2_9_135;Safety stop frequency converter pump 2
+M44124$0_1;Status
+E44124$0_1_00; Information
+E44124$0_1_01; Warning
+E44124$0_1_10; Alarm
+G2_9_135_1;Reset
+M44124$2;Reset
+E44124$2_0; Manual reset
+E44124$2_1; Auto reset
+G2_9_135_2;Relay function
+M44124$3;Relay function
+E44124$3_0; Disabled
+E44124$3_1; Enabled
+G2_9_136;Safety stop frequency converter pump 3
+M44125$0_1;Status
+E44125$0_1_00; Information
+E44125$0_1_01; Warning
+E44125$0_1_10; Alarm
+G2_9_136_1;Reset
+M44125$2;Reset
+E44125$2_0; Manual reset
+E44125$2_1; Auto reset
+G2_9_136_2;Relay function
+M44125$3;Relay function
+E44125$3_0; Disabled
+E44125$3_1; Enabled
+G2_9_137;Safety stop frequency converter pump 4
+M44126$0_1;Status
+E44126$0_1_00; Information
+E44126$0_1_01; Warning
+E44126$0_1_10; Alarm
+G2_9_137_1;Reset
+M44126$2;Reset
+E44126$2_0; Manual reset
+E44126$2_1; Auto reset
+G2_9_137_2;Relay function
+M44126$3;Relay function
+E44126$3_0; Disabled
+E44126$3_1; Enabled
+G2_9_138;Safety stop frequency converter pump 5
+M44127$0_1;Status
+E44127$0_1_00; Information
+E44127$0_1_01; Warning
+E44127$0_1_10; Alarm
+G2_9_138_1;Reset
+M44127$2;Reset
+E44127$2_0; Manual reset
+E44127$2_1; Auto reset
+G2_9_138_2;Relay function
+M44127$3;Relay function
+E44127$3_0; Disabled
+E44127$3_1; Enabled
+G2_9_139;Safety stop frequency converter pump 6
+M44128$0_1;Status
+E44128$0_1_00; Information
+E44128$0_1_01; Warning
+E44128$0_1_10; Alarm
+G2_9_139_1;Reset
+M44128$2;Reset
+E44128$2_0; Manual reset
+E44128$2_1; Auto reset
+G2_9_139_2;Relay function
+M44128$3;Relay function
+E44128$3_0; Disabled
+E44128$3_1; Enabled
+G2_9_140;Failure rainwater-pump 1
+M999123$0_1;Status
+E999123$0_1_00; Information
+E999123$0_1_01; Warning
+E999123$0_1_10; Alarm
+G2_9_140_1;Reset
+M999123$2;Reset
+E999123$2_0; Manual reset
+E999123$2_1; Auto reset
+G2_9_140_2;Relay function
+M999123$3;Relay function
+E999123$3_0; Disabled
+E999123$3_1; Enabled
+G2_9_141;Failure rainwater-pump 2
+M999124$0_1;Status
+E999124$0_1_00; Information
+E999124$0_1_01; Warning
+E999124$0_1_10; Alarm
+G2_9_141_1;Reset
+M999124$2;Reset
+E999124$2_0; Manual reset
+E999124$2_1; Auto reset
+G2_9_141_2;Relay function
+M999124$3;Relay function
+E999124$3_0; Disabled
+E999124$3_1; Enabled
+G2_9_142;Starts per hour exceeded rainwater-pump 1
+M999125$0_1;Status
+E999125$0_1_00; Information
+E999125$0_1_01; Warning
+E999125$0_1_10; Alarm
+G2_9_142_1;Reset
+M999125$2;Reset
+E999125$2_0; Manual reset
+E999125$2_1; Auto reset
+G2_9_142_2;Relay function
+M999125$3;Relay function
+E999125$3_0; Disabled
+E999125$3_1; Enabled
+G2_9_143;Starts per hour exceeded rainwater-pump 2
+M999126$0_1;Status
+E999126$0_1_00; Information
+E999126$0_1_01; Warning
+E999126$0_1_10; Alarm
+G2_9_143_1;Reset
+M999126$2;Reset
+E999126$2_0; Manual reset
+E999126$2_1; Auto reset
+G2_9_143_2;Relay function
+M999126$3;Relay function
+E999126$3_0; Disabled
+E999126$3_1; Enabled
+G2_9_144;Manual Off rainwater-pump 1
+M999127$0_1;Status
+E999127$0_1_00; Information
+E999127$0_1_01; Warning
+E999127$0_1_10; Alarm
+G2_9_144_1;Reset
+M999127$2;Reset
+E999127$2_0; Manual reset
+E999127$2_1; Auto reset
+G2_9_144_2;Relay function
+M999127$3;Relay function
+E999127$3_0; Disabled
+E999127$3_1; Enabled
+G2_9_145;Manual Off rainwater-pump 2
+M999128$0_1;Status
+E999128$0_1_00; Information
+E999128$0_1_01; Warning
+E999128$0_1_10; Alarm
+G2_9_145_1;Reset
+M999128$2;Reset
+E999128$2_0; Manual reset
+E999128$2_1; Auto reset
+G2_9_145_2;Relay function
+M999128$3;Relay function
+E999128$3_0; Disabled
+E999128$3_1; Enabled
+G2_9_146;Manual On rainwater-pump 1
+M999129$0_1;Status
+E999129$0_1_00; Information
+E999129$0_1_01; Warning
+E999129$0_1_10; Alarm
+G2_9_146_1;Reset
+M999129$2;Reset
+E999129$2_0; Manual reset
+E999129$2_1; Auto reset
+G2_9_146_2;Relay function
+M999129$3;Relay function
+E999129$3_0; Disabled
+E999129$3_1; Enabled
+G2_9_147;Manual On rainwater-pump 2
+M999130$0_1;Status
+E999130$0_1_00; Information
+E999130$0_1_01; Warning
+E999130$0_1_10; Alarm
+G2_9_147_1;Reset
+M999130$2;Reset
+E999130$2_0; Manual reset
+E999130$2_1; Auto reset
+G2_9_147_2;Relay function
+M999130$3;Relay function
+E999130$3_0; Disabled
+E999130$3_1; Enabled
+G2_9_148;All rainwater pumps Off
+M999131$0_1;Status
+E999131$0_1_00; Information
+E999131$0_1_01; Warning
+E999131$0_1_10; Alarm
+G2_9_148_1;Reset
+M999131$2;Reset
+E999131$2_0; Manual reset
+E999131$2_1; Auto reset
+G2_9_148_2;Relay function
+M999131$3;Relay function
+E999131$3_0; Disabled
+E999131$3_1; Enabled
+G2_9_149;Lack of rainwater
+M999132$0_1;Status
+E999132$0_1_00; Information
+E999132$0_1_01; Warning
+E999132$0_1_10; Alarm
+G2_9_149_1;Reset
+M999132$2;Reset
+E999132$2_0; Manual reset
+E999132$2_1; Auto reset
+G2_9_149_2;Relay function
+M999132$3;Relay function
+E999132$3_0; Disabled
+E999132$3_1; Enabled
+G2_9_150;Use of potable water
+M999133$0_1;Status
+E999133$0_1_00; Information
+E999133$0_1_01; Warning
+E999133$0_1_10; Alarm
+G2_9_150_1;Reset
+M999133$2;Reset
+E999133$2_0; Manual reset
+E999133$2_1; Auto reset
+G2_9_150_2;Relay function
+M999133$3;Relay function
+E999133$3_0; Disabled
+E999133$3_1; Enabled
+G2_9_151;Flushing inlet line
+M999134$0_1;Status
+E999134$0_1_00; Information
+E999134$0_1_01; Warning
+E999134$0_1_10; Alarm
+G2_9_151_1;Reset
+M999134$2;Reset
+E999134$2_0; Manual reset
+E999134$2_1; Auto reset
+G2_9_151_2;Relay function
+M999134$3;Relay function
+E999134$3_0; Disabled
+E999134$3_1; Enabled
+G2_9_152;Forced flushing of inlet line
+M999135$0_1;Status
+E999135$0_1_00; Information
+E999135$0_1_01; Warning
+E999135$0_1_10; Alarm
+G2_9_152_1;Reset
+M999135$2;Reset
+E999135$2_0; Manual reset
+E999135$2_1; Auto reset
+G2_9_152_2;Relay function
+M999135$3;Relay function
+E999135$3_0; Disabled
+E999135$3_1; Enabled
+G2_9_153;Flushing inlet line incomplete
+M999136$0_1;Status
+E999136$0_1_00; Information
+E999136$0_1_01; Warning
+E999136$0_1_10; Alarm
+G2_9_153_1;Reset
+M999136$2;Reset
+E999136$2_0; Manual reset
+E999136$2_1; Auto reset
+G2_9_153_2;Relay function
+M999136$3;Relay function
+E999136$3_0; Disabled
+E999136$3_1; Enabled
+G2_9_154;Tank filling
+M999137$0_1;Status
+E999137$0_1_00; Information
+E999137$0_1_01; Warning
+E999137$0_1_10; Alarm
+G2_9_154_1;Reset
+M999137$2;Reset
+E999137$2_0; Manual reset
+E999137$2_1; Auto reset
+G2_9_154_2;Relay function
+M999137$3;Relay function
+E999137$3_0; Disabled
+E999137$3_1; Enabled
+G2_9_155;Pipe-filling active
+M999138$0_1;Status
+E999138$0_1_00; Information
+E999138$0_1_01; Warning
+E999138$0_1_10; Alarm
+G2_9_155_1;Reset
+M999138$2;Reset
+E999138$2_0; Manual reset
+E999138$2_1; Auto reset
+G2_9_155_2;Relay function
+M999138$3;Relay function
+E999138$3_0; Disabled
+E999138$3_1; Enabled
+G2_9_156;Pipe-filling maximum attempts exceeded
+M999139$0_1;Status
+E999139$0_1_00; Information
+E999139$0_1_01; Warning
+E999139$0_1_10; Alarm
+G2_9_156_1;Reset
+M999139$2;Reset
+E999139$2_0; Manual reset
+E999139$2_1; Auto reset
+G2_9_156_2;Relay function
+M999139$3;Relay function
+E999139$3_0; Disabled
+E999139$3_1; Enabled
+G2_9_157;Pipe-filling failed
+M999140$0_1;Status
+E999140$0_1_00; Information
+E999140$0_1_01; Warning
+E999140$0_1_10; Alarm
+G2_9_157_1;Reset
+M999140$2;Reset
+E999140$2_0; Manual reset
+E999140$2_1; Auto reset
+G2_9_157_2;Relay function
+M999140$3;Relay function
+E999140$3_0; Disabled
+E999140$3_1; Enabled
+G2_9_158;Too many failed attempts to login
+M44129$0_1;Status
+E44129$0_1_00; Information
+E44129$0_1_01; Warning
+E44129$0_1_10; Alarm
+G2_9_158_1;Reset
+M44129$2;Reset
+E44129$2_0; Manual reset
+E44129$2_1; Auto reset
+G2_9_158_2;Relay function
+M44129$3;Relay function
+E44129$3_0; Disabled
+E44129$3_1; Enabled
+G2_9_159;Dry-run protection occurs too often within time-frame
+M44131$0_1;Status
+E44131$0_1_00; Information
+E44131$0_1_01; Warning
+E44131$0_1_10; Alarm
+G2_9_159_1;Reset
+M44131$2;Reset
+E44131$2_0; Manual reset
+E44131$2_1; Auto reset
+G2_9_159_2;Relay function
+M44131$3;Relay function
+E44131$3_0; Disabled
+E44131$3_1; Enabled
+G2_9_160;System flow estimation failed
+M44130$0_1;Status
+E44130$0_1_00; Information
+E44130$0_1_01; Warning
+E44130$0_1_10; Alarm
+G2_9_160_1;Reset
+M44130$2;Reset
+E44130$2_0; Manual reset
+E44130$2_1; Auto reset
+G2_9_160_2;Relay function
+M44130$3;Relay function
+E44130$3_0; Disabled
+E44130$3_1; Enabled
+G2_9_161;Membrane rupture detection
+M999141$0_1;Status
+E999141$0_1_00; Information
+E999141$0_1_01; Warning
+E999141$0_1_10; Alarm
+G2_9_161_1;Reset
+M999141$2;Reset
+E999141$2_0; Manual reset
+E999141$2_1; Auto reset
+G2_9_161_2;Relay function
+M999141$3;Relay function
+E999141$3_0; Disabled
+E999141$3_1; Enabled
+G2_9_162;Extension board not available
+M44144$0_1;Status
+E44144$0_1_00; Information
+E44144$0_1_01; Warning
+E44144$0_1_10; Alarm
+G2_9_162_1;Reset
+M44144$2;Reset
+E44144$2_0; Manual reset
+E44144$2_1; Auto reset
+G2_9_162_2;Relay function
+M44144$3;Relay function
+E44144$3_0; Disabled
+E44144$3_1; Enabled
+G2_9_163;Water stagnation
+M44145$0_1;Status
+E44145$0_1_00; Information
+E44145$0_1_01; Warning
+E44145$0_1_10; Alarm
+G2_9_163_1;Reset
+M44145$2;Reset
+E44145$2_0; Manual reset
+E44145$2_1; Auto reset
+G2_9_163_2;Relay function
+M44145$3;Relay function
+E44145$3_0; Disabled
+E44145$3_1; Enabled
+G2_9_164;Overcurrent detected
+M44146$0_1;Status
+E44146$0_1_00; Information
+E44146$0_1_01; Warning
+E44146$0_1_10; Alarm
+G2_9_164_1;Reset
+M44146$2;Reset
+E44146$2_0; Manual reset
+E44146$2_1; Auto reset
+G2_9_164_2;Relay function
+M44146$3;Relay function
+E44146$3_0; Disabled
+E44146$3_1; Enabled
+G2_9_165;Over Temperature motor pump 1
+M44150$0_1;Status
+E44150$0_1_00; Information
+E44150$0_1_01; Warning
+E44150$0_1_10; Alarm
+G2_9_165_1;Reset
+M44150$2;Reset
+E44150$2_0; Manual reset
+E44150$2_1; Auto reset
+G2_9_165_2;Relay function
+M44150$3;Relay function
+E44150$3_0; Disabled
+E44150$3_1; Enabled
+G2_9_166;Over Temperature motor pump 2
+M44151$0_1;Status
+E44151$0_1_00; Information
+E44151$0_1_01; Warning
+E44151$0_1_10; Alarm
+G2_9_166_1;Reset
+M44151$2;Reset
+E44151$2_0; Manual reset
+E44151$2_1; Auto reset
+G2_9_166_2;Relay function
+M44151$3;Relay function
+E44151$3_0; Disabled
+E44151$3_1; Enabled
+G2_9_167;Over Temperature motor pump 3
+M44152$0_1;Status
+E44152$0_1_00; Information
+E44152$0_1_01; Warning
+E44152$0_1_10; Alarm
+G2_9_167_1;Reset
+M44152$2;Reset
+E44152$2_0; Manual reset
+E44152$2_1; Auto reset
+G2_9_167_2;Relay function
+M44152$3;Relay function
+E44152$3_0; Disabled
+E44152$3_1; Enabled
+G2_9_168;Over Temperature motor pump 4
+M44153$0_1;Status
+E44153$0_1_00; Information
+E44153$0_1_01; Warning
+E44153$0_1_10; Alarm
+G2_9_168_1;Reset
+M44153$2;Reset
+E44153$2_0; Manual reset
+E44153$2_1; Auto reset
+G2_9_168_2;Relay function
+M44153$3;Relay function
+E44153$3_0; Disabled
+E44153$3_1; Enabled
+G2_9_169;Over Temperature motor pump 1
+M44154$0_1;Status
+E44154$0_1_00; Information
+E44154$0_1_01; Warning
+E44154$0_1_10; Alarm
+G2_9_169_1;Reset
+M44154$2;Reset
+E44154$2_0; Manual reset
+E44154$2_1; Auto reset
+G2_9_169_2;Relay function
+M44154$3;Relay function
+E44154$3_0; Disabled
+E44154$3_1; Enabled
+G2_9_170;Over Temperature motor pump 6
+M44155$0_1;Status
+E44155$0_1_00; Information
+E44155$0_1_01; Warning
+E44155$0_1_10; Alarm
+G2_9_170_1;Reset
+M44155$2;Reset
+E44155$2_0; Manual reset
+E44155$2_1; Auto reset
+G2_9_170_2;Relay function
+M44155$3;Relay function
+E44155$3_0; Disabled
+E44155$3_1; Enabled
+G2_9_171;Power loss
+M44147$0_1;Status
+E44147$0_1_00; Information
+E44147$0_1_01; Warning
+E44147$0_1_10; Alarm
+G2_9_171_1;Reset
+M44147$2;Reset
+E44147$2_0; Manual reset
+E44147$2_1; Auto reset
+G2_9_171_2;Relay function
+M44147$3;Relay function
+E44147$3_0; Disabled
+E44147$3_1; Enabled
+G2_9_172;RTC error
+M44148$0_1;Status
+E44148$0_1_00; Information
+E44148$0_1_01; Warning
+E44148$0_1_10; Alarm
+G2_9_172_1;Reset
+M44148$2;Reset
+E44148$2_0; Manual reset
+E44148$2_1; Auto reset
+G2_9_172_2;Relay function
+M44148$3;Relay function
+E44148$3_0; Disabled
+E44148$3_1; Enabled
+G2_9_173;LCD error
+M44149$0_1;Status
+E44149$0_1_00; Information
+E44149$0_1_01; Warning
+E44149$0_1_10; Alarm
+G2_9_173_1;Reset
+M44149$2;Reset
+E44149$2_0; Manual reset
+E44149$2_1; Auto reset
+G2_9_173_2;Relay function
+M44149$3;Relay function
+E44149$3_0; Disabled
+E44149$3_1; Enabled
+G2_10;Access
+G2_10_1;Display
+M41015;Setting password
+M41016;Login max attempts
+M41017;Login cooldown
+G2_11;Bluetooth
+G2_11_1;nRF
+M48601;nRF Software Version Major
+M48602;nRF Software Version Minor
+M48603;nRF Software Version Revision
+M48620;nRF Get Software Version
+G2_12;Stored settings
+G2_12_1;Status
+M49990;Get write access
+M49004;Save all settings (even defaults)
+M49006;Clear  all settings
+M49014;Required Database Version
+M49016;Current Database Version
+M49010;Read No Settings at startup
+M49007;Reset Application
+M49005;Settings state
